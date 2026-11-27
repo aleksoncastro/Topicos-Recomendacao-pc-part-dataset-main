@@ -1,0 +1,7 @@
+,média (ms),p95 (ms)
+Popularidade,0.032,0.041
+Palavra-chave,0.996,2.463
+BM25,9.041,22.45
+Neural (texto bruto),21.921,25.73
+Neural (texto enriquecido),23.265,27.759
+Sistema: HNSW + ranking,0.142,0.169

@@ -1,0 +1,6 @@
+metodo,Compat@10,Recall@100,nDCG@10
+Neural (texto enriquecido),0.479,0.104,0.322
+Neural (texto bruto),0.52,0.1,0.324
+Popularidade,0.527,0.087,0.334
+BM25,0.626,0.229,0.443
+Palavra-chave,0.925,0.208,0.722

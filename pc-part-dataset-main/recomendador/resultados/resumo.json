@@ -1,0 +1,16 @@
+{
+  "n_consultas": 1044,
+  "pesos": {
+    "sim": 0,
+    "pop": 0,
+    "coer": 4,
+    "outlier": 0.5,
+    "mmr": 0
+  },
+  "melhor_baseline_teste": "Palavra-chave + filtro",
+  "delta_ndcg_teste": 0.056211485869406386,
+  "ic95": [
+    0.03327415491729739,
+    0.08007265125555209
+  ]
+}

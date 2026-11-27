@@ -1,0 +1,75 @@
+id,name,marca,price,resolutions,connection,focus_type,os,fov,categoria,tem_preco,outlier_preco
+44e5096bf4cb6d03695b5d9edfc307bcb7b042d4,Razer Kiyo Pro Ultra,Razer,299.99,"4k, 2k, 1080p, 720p",USB 3.2 Gen 1 Type-A,Auto,Windows,82.0,webcam,True,True
+d2ce61cd78e255358a71d6b62f36e42fff8feffb,Logitech BRIO Ultra HD Pro,Logitech,132.99,"4k, 1080p, 720p",USB 3.2 Gen 1 Type-A,Auto,"Windows, OS X, ChromeOS",82.0,webcam,True,False
+be636635de456b2ab4ca1803a6ef8b34320408c1,Elgato Facecam Pro,Elgato,299.99,"4k, 1080p, 720p",USB 3.2 Gen 1 Type-C,Auto,"Windows, OS X",90.0,webcam,True,True
+ca6698a6544d1f0fb00c4c444fb6604cb2994ccc,Anker PowerConf C200,Anker,47.99,"2k, 1080p, 720p",USB 3.2 Gen 1 Type-C,Auto,"Windows, OS X",95.0,webcam,True,False
+97f656c7c88e20eddfd28992ed9a3dd50abf9794,Logitech BRIO STREAM,Logitech,264.58,"4k, 1080p, 720p",USB 3.2 Gen 1 Type-A,Auto,"Windows, OS X, ChromeOS",90.0,webcam,True,True
+3a222efd101203b3cd87ac9b28eb50864a0c394f,Logitech C920s HD Pro,Logitech,58.98,"1080p, 720p",USB 2.0 Type-A,Auto,"Windows, OS X, ChromeOS, Android",78.0,webcam,True,False
+18dc2c3d91b3a8f24f132c847e0a794853e159d9,Logitech C270,Logitech,23.99,720p,USB 2.0 Type-A,Fixed,"Windows, OS X, ChromeOS, Android",60.0,webcam,True,False
+63af10e6554be0c7e6ca83ee45e6ca2d7a9d095d,OBSBOT Tiny 2,OBSBOT,299.0,"4k, 2k, 1080p, 720p, 480p",USB 3.2 Gen 1 Type-A,Auto,"Windows, OS X",85.5,webcam,True,True
+8f26a2e6d362e6ea0de8522b0987a3a61c9fe641,Logitech C920 HD Pro,Logitech,79.9,"1080p, 720p",USB 2.0 Type-A,Auto,"Windows, OS X, ChromeOS, Android",78.0,webcam,True,False
+47c07697b212b2338317e3aaa6ecfe443ec04c2e,Razer Kiyo X,Razer,49.99,"1080p, 720p",USB 2.0 Type-A,Auto,Windows,82.0,webcam,True,False
+c7ed2dea11bf553be1a2ac17344dcfe6e1bdd4f2,Razer Kiyo,Razer,42.99,"1080p, 720p, 480p",USB 2.0 Type-A,Auto,Windows,81.6,webcam,True,False
+01b239acd54a5be77b6a90799d691d70a4110cfd,Insta360 Link 2,Insta360,199.99,"4k, 1080p, 720p",USB 2.0 Type-C,Auto,"Windows, OS X",79.5,webcam,True,False
+8b6d96b3e36355269544e43b545b184262a75711,Elgato FACECAM MK.2,Elgato,129.99,"1080p, 720p",USB 3.2 Gen 1 Type-C,Fixed,"Windows, OS X",84.0,webcam,True,False
+f3661e9af4ff1bcc7d62a3c344e44c3e6895277b,Adesso Cybertrack H2,Adesso,13.97,480p,USB 2.0 Type-A,Fixed,"Windows, OS X",62.0,webcam,True,False
+9f87b56a2876a29af1b06ce08aa31b4508e5ff63,Logitech MX BRIO,Logitech,199.99,"4k, 1080p",USB 3.2 Gen 1 Type-C,Auto,"Windows, ChromeOS",90.0,webcam,True,False
+37415174329de770946ba5dcd328ab3d7baf4b77,Logitech C922 Pro Stream HD,Logitech,99.99,"1080p, 720p",USB 2.0 Type-A,Auto,"Windows, OS X, ChromeOS, Android",78.0,webcam,True,False
+ac6e963fc54089c3c6ead2209f3cd4f43c9a81e7,Insta360 Insta360 Link,Insta360,179.0,"4k, 1080p, 720p",USB 2.0 Type-C,Auto,"Windows, OS X",79.5,webcam,True,False
+946cd4682fb3df5adf6722f966874d6b6644d3cf,Adesso Cybertrack H4,Adesso,28.0,1080p,USB 2.0 Type-A,Manual,"Windows, OS X",78.0,webcam,True,False
+9fe0c4ca7ec4e3d870cefd3bf1ee5d0d17c5153f,Green Extreme T200,Green,14.99,"1080p, 720p, 480p",USB 2.0 Type-A,Auto,"Windows, OS X, Android",65.0,webcam,True,False
+45a8af9cca01d4ff13dfb3a10d49093b8383b799,Logitech MX BRIO,Logitech,194.99,"4k, 1080p",USB 3.2 Gen 1 Type-C,Auto,"Windows, ChromeOS",90.0,webcam,True,False
+c48acb2e3d04a86a69f1e5f8f453c6a0a6a5fd01,Anker AnkerWork C310,Anker,99.99,"4k, 1080p",USB 3.2 Gen 1 Type-C,Auto,"Windows, OS X",95.0,webcam,True,False
+c590b043ad950f6ca62dae5e423442ffd7987bf9,Razer Kiyo Pro,Razer,164.99,"1080p, 720p, 480p",USB 3.2 Gen 1 Type-A,Auto,Windows,103.0,webcam,True,False
+6eb4ff24219e40654df50359141557d1470db773,Adesso Cybertrack H6,Adesso,62.16,4k,USB 2.0 Type-A,Fixed,"Windows, OS X",80.0,webcam,True,False
+8c615a8336e5591861dce896803c8bd3f06431f8,NexiGo N660P,NexiGo,51.99,"1080p, 720p, 480p",USB 2.0 Type-A,Auto,"Windows, OS X, ChromeOS",,webcam,True,False
+e896db9a6defd901d29ccef5ce8ba1a394ec0254,Logitech StreamCam,Logitech,159.0,"1080p, 720p",USB 3.2 Gen 1 Type-C,Auto,"Windows, OS X",78.0,webcam,True,False
+e9ab2ec84a3bfc7c16a9ee5e9d8a6c721cbdcd3f,OBSBOT MEET 2,OBSBOT,129.0,"4k, 1080p, 720p, 480p",USB 2.0 Type-C,Auto,"Windows, OS X",79.4,webcam,True,False
+7f932a0c9d66c6cae5d67180c9391b23ed91b262,Logitech StreamCam,Logitech,168.95,"1080p, 720p",USB 3.2 Gen 1 Type-C,Auto,"Windows, OS X",78.0,webcam,True,False
+b50690947e2ba9bc7e44d1fca4daa457beee60c0,Logitech C925e,Logitech,74.0,"1080p, 720p",USB 2.0 Type-A,Auto,"Windows, OS X, Linux",78.0,webcam,True,False
+cbed48d22dac20b8f452f36b88f6208ed0be048f,Asus Webcam C3,Asus,49.99,1080p,USB 2.0 Type-A,,"Windows, OS X, ChromeOS",,webcam,True,False
+d7cfff2178bed495d08ecc7f284466f903588b34,aoni A31,aoni,31.9,"1080p, 720p, 480p",USB 2.0 Type-A,Auto,"Windows, OS X, Linux, ChromeOS, Android",84.0,webcam,True,False
+dd7cb47df74b4644b0009de56925465e706dd027,Wansview 101JD,Wansview,22.99,1080p,USB 2.0 Type-A,,"Windows, OS X, Android",90.0,webcam,True,False
+f15da89e9652e78d4dbb4dece6f4f24c611dc169,Logitech C930e,Logitech,78.29,"1080p, 720p",USB 2.0 Type-A,Auto,"Windows, OS X, ChromeOS",90.0,webcam,True,False
+310f857b3c806e22979c61fb6849a8008b6de82c,Avermedia PW310P,Avermedia,44.99,1080p,USB 2.0 Type-A,Auto,"Windows, OS X, ChromeOS",73.0,webcam,True,False
+ca7f60862d2a646cfe7c1adeafb2751f3d6349a8,Avermedia PW513,Avermedia,109.98,"4k, 1080p",USB 3.2 Gen 1 Type-C,Fixed,"Windows, OS X",94.0,webcam,True,False
+5da4eae4714d50666fdacbf1d6c7de79c6c0d96f,Adesso CyberTrack H3,Adesso,14.99,720p,USB 2.0 Type-A,Manual,"Windows, OS X",,webcam,True,False
+ff3cb808561f64f54cd4915efb8248a95fae7e90,OBSBOT Tiny 4K,OBSBOT,,"4k, 1080p, 720p",USB 3.2 Gen 1 Type-A,Auto,"Windows, OS X",90.0,webcam,False,False
+7c3e8460fecb5f6062f625851c132e347f4adfff,Elgato Facecam Premium,Elgato,129.99,"1080p, 720p",USB 3.2 Gen 1 Type-A,Manual,"Windows, OS X",82.0,webcam,True,False
+ed6495f99cc2f293529f6957fc0a0b3f95256081,Asus ROG EYE,Asus,,1080p,USB 2.0 Type-A,Auto,"Windows, OS X",,webcam,False,False
+54f8f9df0d421a42bddf0e947f4fd9ccf26ffae4,Logitech StreamCam Plus,Logitech,159.99,"1080p, 720p, 480p",USB 3.2 Gen 1 Type-C,Auto,"Windows, OS X",,webcam,True,False
+e1421f5ea1dbf4a306035f844dec7c0d40d48922,NexiGo N660P,NexiGo,55.19,"1080p, 720p, 480p",USB 2.0 Type-A,Auto,"Windows, OS X, ChromeOS",,webcam,True,False
+d31ce3ce18df5a94ff01e70cfbdc70a9e0dcd1ba,Adesso Cybertrack H5,Adesso,42.99,1080p,USB 2.0 Type-A,Auto,"Windows, OS X",80.0,webcam,True,False
+674431e1f4136a63bdf6448e7fa31c9cde4d839f,Anker B600 Video Bar,Anker,,"2k, 1080p, 720p",USB 3.2 Gen 1 Type-C,Auto,"Windows, OS X",95.0,webcam,False,False
+af738b374797e438a83432e8913414d145116bbd,Creative Labs Live! Cam Sync 1080p,Creative Labs,62.0,"1080p, 720p",USB 2.0 Type-A,Auto,"Windows, OS X",77.0,webcam,True,False
+a748e58d03c739a5b7663420af1fdd4f4bb5d2f2,Logitech C615 Portable,Logitech,49.99,"1080p, 720p",USB 2.0 Type-A,Auto,"Windows, OS X, ChromeOS, Android",78.0,webcam,True,False
+77266174dde975ab431279083de94ec1e315336b,Wansview 106JD,Wansview,,1080p,USB 2.0 Type-A,Auto,"Windows, OS X, Android",60.0,webcam,False,False
+e61f78a6df05450a90b523ea9528188c8d654d27,Logitech C910,Logitech,87.99,"1080p, 720p",USB 2.0 Type-A,Auto,"Windows, OS X",78.0,webcam,True,False
+1e189f629f69d8987bdea792fd9b5fa0fc47445b,Avermedia Live Streamer CAM 313,Avermedia,56.99,1080p,USB 2.0 Type-A,Fixed,"Windows, OS X",,webcam,True,False
+656f151f017fdef10f3a3f97e490247d2c42bdbd,Logitech C525,Logitech,99.99,720p,USB 2.0 Type-A,Auto,"Windows, OS X, ChromeOS, Android",69.0,webcam,True,False
+eea945cec88cea8080dbacb14057bba50a808305,Logitech C310,Logitech,,720p,USB 2.0 Type-A,Fixed,"Windows, OS X, ChromeOS, Android",60.0,webcam,False,False
+7dd8a37d0125b03bf7bd531acf098490433932cc,Microsoft LifeCam HD-3000,Microsoft,48.99,720p,USB 2.0 Type-A,Fixed,"Windows, OS X",,webcam,True,False
+a83688d0db329a643a1e9a25e33d0a716a1a96fa,Logitech C505,Logitech,54.99,720p,USB 2.0 Type-A,Fixed,"Windows, OS X, ChromeOS",60.0,webcam,True,False
+6fe0a3293a7780d478eabed0464f0abd9a13336d,Logitech B525,Logitech,59.99,"1080p, 720p",USB 2.0 Type-A,Auto,"Windows, OS X",69.0,webcam,True,False
+ae16075042a2d8b712652232bf708747001c4a90,Avermedia PW315,Avermedia,88.92,1080p,USB 2.0 Type-A,Fixed,"Windows, OS X, ChromeOS",95.8,webcam,True,False
+5cee498ede69a2e395dc2a51606bafff40095dc5,Anker PowerConf C302,Anker,,"2k, 1080p, 720p",USB 3.2 Gen 1 Type-C,Auto,"Windows, OS X",115.0,webcam,False,False
+37ed331d4de991eceaa10b640aaedf5313efd893,AUKEY PC-LM1,AUKEY,,"1080p, 720p, 480p",USB 2.0 Type-A,Manual,"Windows, OS X, Android",55.0,webcam,False,False
+50baa931e25afa3fc93ed2b13f402480a4b921ea,VDO360 2SEE,VDO360,49.95,"1080p, 720p",USB 2.0 Type-A,,"Windows, OS X, Linux, Android",75.0,webcam,True,False
+61cd304a799f00c3979041f2803ceb7da8f50acd,Green Extreme T1000,Green,129.0,1080p,USB 2.0 Type-A,Auto,"Windows, OS X",120.0,webcam,True,False
+a0fa9e94338bf462c6f56fa86c36e32ef18f0ad8,Logitech C505e,Logitech,69.98,720p,USB 2.0 Type-A,Fixed,"Windows, OS X, ChromeOS",60.0,webcam,True,False
+b443a9930fb75c2152e64024c9d690f77e15f975,Microsoft LifeCam Studio,Microsoft,64.98,"1080p, 720p",USB 2.0 Type-A,Auto,"Windows, OS X",75.0,webcam,True,False
+85fe7ca73a68b6da3280dcc59350db27fa260c7b,Avermedia HD Webcam 310,Avermedia,,"1080p, 720p, 480p",USB 2.0 Type-A,Auto,"Windows, OS X, Android",,webcam,False,False
+c6d9c9955cbdbecf92c11d1ce769b2671d20660b,Avermedia 4K UHD Webcam 510,Avermedia,,"4k, 1080p, 720p, 480p",USB 3.2 Gen 1 Type-C,,Windows,85.0,webcam,False,False
+809ddf34a37c77e1caf83513a5ee2cfb43318deb,Microsoft LifeCam Studio for Business,Microsoft,89.0,"1080p, 720p",USB 2.0 Type-A,Auto,"Windows, OS X",75.0,webcam,True,False
+b6269e6f239ec0b884cf668f4ed9ba6a178d2bf5,Microsoft Lifecam Cinema,Microsoft,85.99,720p,USB 2.0 Type-A,Auto,Windows,73.0,webcam,True,False
+4e55f846fed57d09ae5556d41edccc640d932022,Microsoft LifeCam HD-3000 L2,Microsoft,,720p,USB 2.0 Type-A,Fixed,"Windows, OS X",,webcam,False,False
+5e34ddcc82162fd0b2fec8e1caa3a8ff4bce1939,Microsoft LifeCam CinemaaFor Business,Microsoft,88.99,720p,USB 2.0 Type-A,Auto,"Windows, OS X",,webcam,True,False
+2d3c26bd8722ec7660134f319966527bd0bc8b4d,Creative Labs BlasterX Senz3D,Creative Labs,,"1080p, 720p",USB 3.2 Gen 1 Type-A,Auto,Windows,77.0,webcam,False,False
+3de0fb714aae7a35e3bfcc1237d1ebabe0233591,Creative Labs Live! Cam Sync HD,Creative Labs,,720p,USB 2.0 Type-A,Fixed,"Windows, OS X",,webcam,False,False
+b4751c7d5b6904c797aeff9b57ab202d8b8593dd,Wansview 105JD,Wansview,,1080p,USB 2.0 Type-A,Manual,"Windows, OS X, Android",90.0,webcam,False,False
+59573db11b3fc16f5e3eb2fc945104728ef73889,Anker PowerConf C300,Anker,,"1080p, 720p",USB 3.2 Gen 1 Type-C,Auto,"Windows, OS X",115.0,webcam,False,False
+ff9dc4c842e3d0f7e8a7c5616da4d8688c7dcd0d,OBSBOT Tiny,OBSBOT,,"1080p, 720p",USB 2.0 Type-A,Auto,"Windows, OS X",86.0,webcam,False,False
+ba2b090cdea831520c2ac0b0686e4a7be72c066d,Green Extreme T200 + Live Streaming Bundle,Green,,1080p,USB 2.0 Type-A,Auto,"Windows, OS X, Android",,webcam,False,False
+b9202772c3cf3d73c71ba8ba4ebabab20206e6d8,Wansview 102JD,Wansview,,1080p,USB 2.0 Type-A,,"Windows, OS X, Android",90.0,webcam,False,False
+8db05e194c2264f997ae3709ea558c94c89d688f,Adesso Cybertrack H4P,Adesso,,1080p,USB 2.0 Type-A,Manual,"Windows, OS X",78.0,webcam,False,False
+9136119ec2537850111ef77dc0e487b9c5cf0a05,Green Extreme T300,Green,,"1080p, 720p, 480p",USB 2.0 Type-A,Auto,"Windows, OS X, Android",94.0,webcam,False,False

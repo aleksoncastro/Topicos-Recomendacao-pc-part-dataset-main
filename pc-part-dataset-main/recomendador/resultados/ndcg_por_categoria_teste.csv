@@ -1,0 +1,9 @@
+metodo,case,memory,motherboard,power-supply
+"Ablação: Neural + filtro, sem ranking",0.638,0.649,0.613,0.651
+Ablação: ranking sem similaridade neural,0.869,0.918,0.741,0.898
+BM25 + filtro,0.703,0.703,0.752,0.76
+Neural (texto bruto) + filtro,0.616,0.627,0.563,0.634
+Neural (texto enriquecido) + filtro,0.65,0.649,0.636,0.651
+Palavra-chave + filtro,0.77,0.748,0.848,0.834
+Popularidade + filtro,0.626,0.627,0.626,0.625
+Sistema: Neural + ranking,0.869,0.918,0.741,0.898

@@ -1,0 +1,9 @@
+metodo,nDCG@10,MRR,Compat@10,Diversidade@10,Itens na lista
+Neural (texto bruto) + filtro,0.61,0.59,1.0,0.316,10.0
+Popularidade + filtro,0.626,0.567,1.0,0.424,10.0
+"Ablação: Neural + filtro, sem ranking",0.638,0.658,1.0,0.33,9.797
+Neural (texto enriquecido) + filtro,0.647,0.66,1.0,0.331,10.0
+BM25 + filtro,0.73,0.753,1.0,0.349,10.0
+Palavra-chave + filtro,0.8,0.783,1.0,0.385,10.0
+Ablação: ranking sem similaridade neural,0.856,0.861,1.0,0.444,9.797
+Sistema: Neural + ranking,0.856,0.861,1.0,0.444,9.797

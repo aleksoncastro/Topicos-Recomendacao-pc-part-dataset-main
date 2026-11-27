@@ -1,0 +1,370 @@
+id,name,marca,price,protocol,interface,color,categoria,tem_preco,outlier_preco
+ff6695e32597dd29a591c3c48057fc273324d812,Gigabyte GC-WBAX210,Gigabyte,36.99,Wi-Fi 6E,PCIe x1,Black / Silver,wireless-network-card,True,False
+99a335f3c41a0b37255e6bc2bda45781c8d0db0a,TP-Link Archer TBE550E,TP-Link,79.98,Wi-Fi 7,PCIe x1,Black,wireless-network-card,True,False
+30d8ab030337de2725f5ca5efe2d199682d839f4,TP-Link Archer TX3000E,TP-Link,31.99,Wi-Fi 6,PCIe x1,Red / Black,wireless-network-card,True,False
+969fe18e6d08571095ca6ef2ecb830ee7a607473,TP-Link ARCHER T2U PLUS,TP-Link,14.85,Wi-Fi 5,USB Type-A 2.0,Black,wireless-network-card,True,False
+7e4c06265fb12e8ddee793748fcb228a048740d7,TP-Link ArcherTX20E,TP-Link,26.99,Wi-Fi 6,PCIe x1,Black,wireless-network-card,True,False
+e514d0e6f419b97206c1796d35741fb56ee24e6e,Asus PCE-AX3000,Asus,49.99,Wi-Fi 6,PCIe x1,Black,wireless-network-card,True,False
+e7c5f59d1cbf5b19c2e6e3a220f8e2c2d33cde48,TP-Link TL-WN881ND,TP-Link,14.99,Wi-Fi 4,PCIe x1,,wireless-network-card,True,False
+063406f3e0228cb4676371f2768625534f1508a1,Intel AX210,Intel,16.48,Wi-Fi 6E,M.2 PCIe,Green,wireless-network-card,True,False
+176675fc75ea8ded701ef83c5891f1ee41a376a0,Belkin AE6000,Belkin,170.67,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,True,True
+665e85a7dd40c0f282b3eea064a64c32e3c51e96,TP-Link Archer TX55E,TP-Link,29.0,Wi-Fi 6,PCIe x1,,wireless-network-card,True,False
+2fb51eb7e850281b9c5386a419280a4e239778f8,MSI HERALD-BE WIFI 7 MAX,MSI,49.99,Wi-Fi 7,PCIe x1,Black,wireless-network-card,True,False
+d55797731e814075ff0d7bea27ae68a83b35e059,TP-Link Archer T3U Plus,TP-Link,19.98,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,True,False
+2d4c12348fa956fabe9c6badde5344343bd0b4fe,TP-Link Archer TX50E,TP-Link,,Wi-Fi 6,PCIe x1,Black,wireless-network-card,False,False
+ad7d1da75a4db00396350a3c1d9af29681e59e71,Asus PCE-AX1800,Asus,29.99,Wi-Fi 6,PCIe x1,Black,wireless-network-card,True,False
+5f11e518be26df3af3fe4bdbf7a6ca0310e56c47,Asus PCE-BE92BT,Asus,64.98,Wi-Fi 7,PCIe x1,Black,wireless-network-card,True,False
+afd998856f901a47e829b792723086e731906abb,Ziyituod ZYT-AX210S,Ziyituod,25.5,Wi-Fi 6E,PCIe x1,Red,wireless-network-card,True,False
+2ef699f55af73d7501d22a79e9772a963d6ba83d,TP-Link TL-WN725N,TP-Link,9.99,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+ecc495366a1bae4c6eec675154cba48b46da2b7b,TP-Link Archer T4E,TP-Link,19.98,Wi-Fi 5,PCIe x1,,wireless-network-card,True,False
+e1f681b65bd3abbef923d5a13d55ae5b6f332049,Asus PCE-AXE5400,Asus,50.48,Wi-Fi 6E,PCIe x1,Black,wireless-network-card,True,False
+2a6b824205f9763a630b26e32594104d4420c47b,EDUP EP-9651,EDUP,26.95,Wi-Fi 6E,PCIe x1,Blue / Black,wireless-network-card,True,False
+24c962d487179a69b4a5d763af53e9424b3094e2,TP-Link Archer TX20U plus,TP-Link,29.99,Wi-Fi 6,USB Type-A 3.2 Gen 1,,wireless-network-card,True,False
+e7b8e0a5f87fe88b1d1a72de1b7a8dabae50886c,TP-Link Archer TXE72E,TP-Link,39.99,Wi-Fi 6E,PCIe x1,,wireless-network-card,True,False
+21c84585560d65315acadb58f943abd44525a258,TP-Link ARCHER T2E,TP-Link,14.99,Wi-Fi 5,PCIe x1,,wireless-network-card,True,False
+6993c2b99a15d7c2b538dc474b10c5f34f23f798,Intel AX200,Intel,49.95,Wi-Fi 6,M.2,,wireless-network-card,True,False
+0b212a663182f6d5ecaf52f61fce182aa3495c79,Netgear WNA3100M-100ENS,Netgear,129.99,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,True
+2f7a3daf561effb4d18d0a7c6a81bf0c277a47af,TP-Link Archer TXE75E,TP-Link,44.99,Wi-Fi 6E,PCIe x1,,wireless-network-card,True,False
+e2d8863ea4d0dc2f03b2be9841714b3a499ee32c,TP-Link TL-WDN4800,TP-Link,99.79,Wi-Fi 4,PCIe x1,,wireless-network-card,True,True
+42c7f7ccd911c1a811c7b63373554481e155a7ae,Intel Killer AX1675,Intel,44.75,Wi-Fi 6E,PCIe x1,,wireless-network-card,True,False
+833fb1c777dbe848fb6fdb698564eca1252fecd7,Asus PCE-AX58BT,Asus,55.99,Wi-Fi 6,PCIe x1,Black,wireless-network-card,True,False
+fd53f63a8bc60c035b3d67cf46e2f04e5407b2d0,Netgear Nighthawk AXE3000,Netgear,69.0,Wi-Fi 6E,USB Type-A 3.2 Gen 1,Black,wireless-network-card,True,False
+0419a4ad9960439a73d39a33418eabeab5c8927b,Intel AX210 w/vPro,Intel,23.77,Wi-Fi 6E,M.2 PCIe,Green,wireless-network-card,True,False
+23ad5db7880f725bcbaa662f919a90470544a8e5,Ziyituod ZYT-AX200,Ziyituod,,Wi-Fi 6,PCIe x1,Green,wireless-network-card,False,False
+c4102b42e1d70dcfb7e0ec23e31322a3075eb0e8,StarTech USB150WN1X1,StarTech,9.27,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+36611c82d1508300368c01bb955169080f16f7ff,MSI HERALD-BE NCM865 WI-FI 7,MSI,49.99,Wi-Fi 7,PCIe x1,Black,wireless-network-card,True,False
+fb591288f28248e5d442e8d9b261505b9567a6cd,Asus PCE-AC56,Asus,27.98,Wi-Fi 5,PCIe x1,,wireless-network-card,True,False
+51db8572e43d46ff993a1c161950f2fa2894dc72,Gigabyte GC-WBAX200,Gigabyte,,Wi-Fi 6,PCIe x1,Black / Silver,wireless-network-card,False,False
+8ad75803491592579b985ff5f969f8f676595491,TP-Link Archer T5E,TP-Link,23.99,Wi-Fi 5,PCIe x1,Black,wireless-network-card,True,False
+6328b3e891b692c4b0ad953ee47496fa6dd81b3c,EDUP EP-9636GS-BL,EDUP,28.99,Wi-Fi 6,PCIe x1,Black,wireless-network-card,True,False
+32ea82bd460217141bd9ee09f96db2c651678e72,Asus PCE-AXE58BT,Asus,59.99,Wi-Fi 6E,PCIe x1,Black / Gold,wireless-network-card,True,False
+acb4cab1db007415d3948bd015393159f937fe62,Asus PCE-AC68,Asus,,Wi-Fi 5,PCIe x1,,wireless-network-card,False,False
+ce3665916d13811a575234af80c1ce3b0f976b36,TP-Link Archer T9UH,TP-Link,129.79,Wi-Fi 5,USB Type-A 3.2 Gen 1,Black,wireless-network-card,True,True
+086bc0b9b7e3d73b07e4901e9e9ed7031be11182,TP-Link Archer T2UB Nano,TP-Link,19.98,Wi-Fi 5,USB Type-A 2.0,Black,wireless-network-card,True,False
+e33facc61a5624939474c95633c89750de6bcc85,MSI AX905C,MSI,34.99,Wi-Fi 6,PCIe x1,Black,wireless-network-card,True,False
+cb6717c566e7a8d0ba839ac4b8f826f28422c984,Asus USB-AX55 Nano,Asus,34.99,Wi-Fi 6,USB Type-A 2.0,Black,wireless-network-card,True,False
+50e73158b49baef62817a55cc1cd6161c76b2048,Cudy WE3000,Cudy,31.99,Wi-Fi 6,PCIe x1,,wireless-network-card,True,False
+3a8f6dfedf59651acda70b9a2e892d00ee476813,Gigabyte GC-WB867D-I,Gigabyte,70.98,Wi-Fi 5,PCIe x1,,wireless-network-card,True,False
+daef7884d8abf10dfb343a16202cfd08f6f4e89f,Asus PCE-AC88,Asus,,Wi-Fi 5,PCIe x1,,wireless-network-card,False,False
+d59f7703367ac1bfcd4a79cdb1fbd633158a5b5b,TP-Link TL-WN781ND,TP-Link,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+0c4e2ef3e832a236d13687d0cb8dcc4ab6eca57f,TP-Link Archer T6E AC1300,TP-Link,86.8,Wi-Fi 5,PCIe x1,,wireless-network-card,True,False
+8347ba1221a79f0e7f570d75587b7540138fd10d,Gigabyte GC-WB1733D-I,Gigabyte,,Wi-Fi 5,PCIe x1,Black,wireless-network-card,False,False
+81dfbacf237697540d3bde52a69f1474c1b0e0cc,Intel AX200.NGWG.NV,Intel,54.43,Wi-Fi 6,M.2,,wireless-network-card,True,False
+c2326aa717765bae72932a6c71fb99d1357d70b7,TP-Link Archer T3U,TP-Link,19.98,Wi-Fi 5,USB Type-A 3.2 Gen 1,Black,wireless-network-card,True,False
+93f9a765e1c562dc46c939e32e62d29b896e5483,Ubit AX210,Ubit,,Wi-Fi 6E,PCIe x1,Black,wireless-network-card,False,False
+cf052d6c31be427fce0d186b3f1e4b5b5dd3a9fe,TP-Link TL-WN821N,TP-Link,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+6934ed95e9300c389fc5f2780b064e1f292169bd,MSI AX1800,MSI,39.99,Wi-Fi 6,USB Type-A 3.2 Gen 1,Black,wireless-network-card,True,False
+808cc01a38bc7eba7b15de5a506e9ecd75277647,TP-Link Archer T2U Nano,TP-Link,14.99,Wi-Fi 4,USB Type-A 2.0,Black / Gold,wireless-network-card,True,False
+918647299769cb4d5cfee2803e8575f00ebf444d,TP-Link Archer T4U Plus,TP-Link,23.99,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,True,False
+4951fde52a9980373f44f8012f865872fbeefd3c,EDUP EP-9651GS,EDUP,,Wi-Fi 6E,PCIe x1,Black,wireless-network-card,False,False
+c0fe181698c462648393b69e0cc7fedcd3a8e042,Intel 7260HMWDTX1,Intel,110.0,Wi-Fi 5,PCIe x1,,wireless-network-card,True,True
+314962e35a1788da2daa30f46d94e15f8edfcf97,Asus USB-AC53 NANO,Asus,29.0,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,True,False
+2f274d4daf7c051de86b69296846f870d1894cab,Asus PCE-AXE59BT,Asus,69.99,Wi-Fi 6E,PCIe x1,Black,wireless-network-card,True,False
+bc8487edf80a779f4e861bfac7049a985fb1af87,BrosTrend AC5,BrosTrend,,Wi-Fi 5,USB Type-A 2.0,Black,wireless-network-card,False,False
+ea98cd5e86a5fc6b62c8fc124f978544f9dfa7dc,D-Link DWA-582,D-Link,,Wi-Fi 5,PCIe x1,,wireless-network-card,False,False
+9960af713390761962436c2df6f16507aac54fa3,TP-Link TL-WN823N,TP-Link,18.98,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+7ecd050c97d83ade85e64dfaa353ea5ed790ec81,Belkin F9L1101,Belkin,83.94,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+649f89a13b406a2a72e3e6e0c8a94b400fcaea9d,Asus PCE-AC51,Asus,50.04,Wi-Fi 5,PCIe x1,,wireless-network-card,True,False
+83426e714f20468b2a612c59ac0711f831c9cefb,Rosewill RNX-N250PCe,Rosewill,16.21,Wi-Fi 4,PCIe x1,,wireless-network-card,True,False
+e253064370f7ac8b20678985f55e914f0aa29ba7,TP-Link Archer T9E,TP-Link,89.99,Wi-Fi 5,PCIe x1,,wireless-network-card,True,True
+ced7f92cec2b1f40079d0f33f70b9c5bc158fd83,Netgear Nighthawk AC1900 A7000-10000S,Netgear,59.09,Wi-Fi 5,USB Type-A 3.2 Gen 1,Black,wireless-network-card,True,False
+5f4cc4be2263d53d51018cf86c3ae0d1d2cfde63,Ubit G10H-AX210S,Ubit,,Wi-Fi 6E,PCIe x1,,wireless-network-card,False,False
+8dcb7033cfaeba45f80c04c5d61c5dd53b9c2f56,fenvi FV-T919,fenvi,45.59,Wi-Fi 5,PCIe x1,Black / Gold,wireless-network-card,True,False
+16e9d164904163a1ab872a53b2cfe77dab752b0c,fenvi FV-AX3000,fenvi,,Wi-Fi 6,PCIe x1,Red / Black,wireless-network-card,False,False
+b8ed9947ece03b84cb71408a64880dec0fc7ef70,Netgear A6100-100PAS,Netgear,61.72,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,True,False
+870cfbf1b2aee90334a2e12af0904e86c516c299,Asus PCE-AC55BT B1,Asus,,Wi-Fi 5,PCIe x1,,wireless-network-card,False,False
+95438484fd5cc244eb4e192d3e97b422ebab16b9,Asus USB-AX56,Asus,66.03,Wi-Fi 6,USB Type-A 3.2 Gen 1,Black,wireless-network-card,True,False
+edc8594dbfc960258b1d5e7f40f2511e90a15172,TP-Link TL-WN722N,TP-Link,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+2c97591ce08da2b904a34871753b69b0ab00c0d6,fenvi FV-HB1200,fenvi,34.95,Wi-Fi 5,PCIe x1,Black / Blue,wireless-network-card,True,False
+c157b0cde499dc10fb4c215fe2803eb79f3af2b6,Asus PCE-N15,Asus,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+ff66a496b66cdce6207ba042778a151dada1af25,D-Link DWA-140,D-Link,39.99,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+57723e6fd7d141c5c75d536585e20cee652122b4,Rosewill RNX-AC1300PCEv2,Rosewill,23.0,Wi-Fi 5,PCIe x1,Black,wireless-network-card,True,False
+8be3abf26bb218e87574ffd6ebdd2b13da033c2f,Netgear WNDA4100-100NAS,Netgear,44.09,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+9c94a1fda8d00f4cd9edde64113931c8b921f942,TP-Link Archer T3U Nano,TP-Link,17.98,Wi-Fi 5,USB Type-A 2.0,Black,wireless-network-card,True,False
+12bacd9be3177286a4ba289d569ad9b0f5af5330,Asus PCE-AC58BT,Asus,,Wi-Fi 5,PCIe x1,Blue,wireless-network-card,False,False
+5fa3ff15998ec45242d30dd5e10b627f31cae081,D-Link DWA-552,D-Link,48.87,Wi-Fi 4,PCI,,wireless-network-card,True,False
+c0efc90df54ef687c25f17c431009a513e6b3933,Edimax EW-7811UAC,Edimax,19.98,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,True,False
+ab7b32d44af04244257676c38a7bd360df3833f4,Gigabyte GC-WB867D-I REV 4.2,Gigabyte,,Wi-Fi 5,PCIe x1,,wireless-network-card,False,False
+06bc9a7e2866d39ea5391593778140ddfd8c1f06,Intel 8265.NGWMG.S,Intel,,Wi-Fi 5,M.2,Green,wireless-network-card,False,False
+e56e54fd99db0ef6429ed8d5ce23c9f3ca883c51,TP-Link Archer TX21UH,TP-Link,39.99,Wi-Fi 6,USB Type-A 3.2 Gen 1,Silver / Black,wireless-network-card,True,False
+b468b227ffdc6dd4ea7046bd741206fe6f0583ce,TP-Link Archer T4U,TP-Link,34.99,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,True,False
+5bcd70b1c2590c302ef3fbcfd7e2d91b5f767d16,Asus PCE-AC55BT,Asus,,Wi-Fi 5,PCIe x1,,wireless-network-card,False,False
+2c24a7d7a3f87cc91a398dbe95e548b7e643eac5,D-Link DWA-X1850,D-Link,,Wi-Fi 6,USB Type-A 3.2 Gen 1,,wireless-network-card,False,False
+cea9a2327d37768c154eb8b255c22846d4bd5b7d,TP-Link Archer T2U,TP-Link,29.29,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,True,False
+bbae0df3267a7b29171074b61d04dd75f7521f1d,Intel 62205ANHMWDTX1,Intel,39.9,Wi-Fi 4,PCIe x1,,wireless-network-card,True,False
+07fffdd490bd023a9256935ee392a4fa66fdffbe,fenvi FV-8802,fenvi,39.51,Wi-Fi 5,PCIe x1,Black / Orange,wireless-network-card,True,False
+1ea3f80a6d853be6a43c51f18b3c1e2bbfaabc10,Netgear A6210-100PAS,Netgear,,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,False,False
+1118ffe65e316829afc51c57620efe98004c7d23,TP-Link TL-WN822N,TP-Link,25.74,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+9f641002da9d01489e80d21960a7b457558dd7ab,fenvi FV-AXE3000,fenvi,,Wi-Fi 6,PCIe x1,Red / Black,wireless-network-card,False,False
+6850a27c0171bf09535c6958176d4926c92982d3,NEC NP05LM1,NEC,,Wi-Fi 4,USB Type-A 2.0,White,wireless-network-card,False,False
+390b8a775976577eec438582c8f4e204ad957dcb,Wavlink WL-WN675X2,Wavlink,,Wi-Fi 6,PCIe x1,Red,wireless-network-card,False,False
+35e3e747a470fda87f81e84ded82ba10db2ff55d,BrosTrend AC3,BrosTrend,29.99,Wi-Fi 5,USB Type-A 3.2 Gen 1,Black,wireless-network-card,True,False
+d061f25b1c8b1ad7b94757d28bb7105f73aea6f2,Asus PCE-N10,Asus,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+9bff1dd6f22b22aa535e035a912e7cb9f822bbed,TP-Link Archer T8E,TP-Link,79.98,Wi-Fi 5,PCIe x1,,wireless-network-card,True,False
+4e7f0f24cdddebdefb0482d50cac4f663b0ce56f,TP-Link Archer T2UH,TP-Link,109.95,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,True,True
+b643242e31913ad4657ac10b20e34d3d7a0cb757,D-Link DWA-548,D-Link,39.99,Wi-Fi 4,PCIe x1,,wireless-network-card,True,False
+4b6e8a191efed46abb83a2074fa832ad002778b5,MSI AC905C,MSI,,Wi-Fi 5,PCIe x1,Black,wireless-network-card,False,False
+0fd6428078b163c671e1ed4f763ddbe8cdd85368,fenvi FV-AXE210NG,fenvi,,Wi-Fi 6E,M.2,,wireless-network-card,False,False
+c4baa5148011b17a9e02905f0c705c6fc9d1ffbd,StarTech PEX300WN2X2,StarTech,24.99,Wi-Fi 4,PCIe x1,,wireless-network-card,True,False
+efeb8c01c6cbecb53af5182ee93397cfc377a449,Intel 7260HMWDTX1,Intel,,Wi-Fi 5,PCIe x1,,wireless-network-card,False,False
+a23885d8ee325aa84c8aaa56f203c822a64babce,AVM FRITZ! WLAN Stick AC 430 MU-MIMO,AVM,,Wi-Fi 5,USB Type-A 2.0,White / Red,wireless-network-card,False,False
+ed33a7997d8fb0bdabcaebd43aba1e5897dace5b,Intel 9560.NGWG.NVR,Intel,,Wi-Fi 5,M.2,Silver,wireless-network-card,False,False
+9e73c1f7c480cb3710f3018c80984047aae7e3a8,Edimax EW-7612PIN V2,Edimax,17.55,Wi-Fi 4,PCIe x1,Green,wireless-network-card,True,False
+722366b6584d7425dc209103b37ab42dceba399f,TP-Link TL-WN851ND,TP-Link,,Wi-Fi 4,PCI,,wireless-network-card,False,False
+0bddd0e1063fd1e07140fca5b9cf52130a9e9441,D-Link DWA-131,D-Link,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+dba1156a8412393c16e5502be97a03f739d9e34a,Rosewill RNX-AC1900PCE,Rosewill,63.29,Wi-Fi 5,PCIe x1,,wireless-network-card,True,False
+43b49d41c1d562d93a46c463f2a581252f4664a4,Cisco AIR-PI21AG-A-K9,Cisco,,Wi-Fi 3,PCI,,wireless-network-card,False,False
+98b1a2e7a896d1bbb321b349dd86913aa61bd795,Intel 6235AN.HMWWB,Intel,14.0,Wi-Fi 4,Half Mini-PCIe,,wireless-network-card,True,False
+64cd9fa5af14f61d2af612fed4ef9860b45fa96b,Netgear A6200-100NAS,Netgear,46.17,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,True,False
+73ef2b16da619c8b05417afae27a54cdb9da580f,TP-Link TL-WN951N,TP-Link,79.98,Wi-Fi 4,PCI,,wireless-network-card,True,False
+996049c5600e7f96342d0fd88e867f22ff804478,fenvi FV-AXE3000RGB,fenvi,,Wi-Fi 6E,PCIe x1,Red / Silver,wireless-network-card,False,False
+14383ccaf6fb583610163917265ffae0dc74466c,MSI AC905C-V2,MSI,,Wi-Fi 5,PCIe x1,Black,wireless-network-card,False,False
+c19c2d39c01a8757bb863788de2eb63cf16c916f,BrosTrend AC1,BrosTrend,20.99,Wi-Fi 5,USB Type-A 3.2 Gen 1,Black,wireless-network-card,True,False
+38f26db44facafe69ac100041a4ff01d5c46ccca,HP FH971AA,HP,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+00ae3b292b4dbf6b902b3188160dfeb58a9e43b9,TRENDnet TEW-648UBM,TRENDnet,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+e437ed4c7d6562c1981cf27263503afabcf4f398,Asus USB-AC56,Asus,,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,False,False
+1467738efbd233a4da27855ec0fda6eb197deb52,Intel 7260,Intel,35.0,Wi-Fi 5,Mini-PCIe,,wireless-network-card,True,False
+74dc4682993b750f6550e5f2576998b64a20b78d,TP-Link Archer T4UH,TP-Link,74.11,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,True,False
+a681fb453d12437ada3c4187701305ff559a3e15,Rosewill N900PCE,Rosewill,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+1a3f0ea1a616fe7aa394ce496c255ce3cca7656c,TP-Link TL-WDN3800,TP-Link,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+0a969402bd5a5462325fa16fd30a96b145982dcf,Feb Smart FS-N600 Basic Edition,Feb,,Wi-Fi 5,PCIe x1,,wireless-network-card,False,False
+7c26c175cc0f245a3b2f00591393a24fa9dad9cd,Rosewill RNX-AC600PCEv3,Rosewill,,Wi-Fi 5,PCIe x1,Black,wireless-network-card,False,False
+2e6d0f43a9dbc3612d42dd1957bf0e2200f173fc,Rosewill RNX-AC1200PCEv2,Rosewill,,Wi-Fi 5,PCIe x1,Green,wireless-network-card,False,False
+e180740e343cb34a7f47c5dfb42385e3a613fc81,HP 9260,HP,,Wi-Fi 5,PCIe x1,Green / Black,wireless-network-card,False,False
+7c220be748a590b905284c7b0a60fe1857d3910b,Netgear A6150-100PAS,Netgear,34.99,Wi-Fi 5,USB Type-A 2.0,Black,wireless-network-card,True,False
+5a8d30d3f4975e016188e174fd9c772f4377b571,Ziyituod ZYT-7265,Ziyituod,,Wi-Fi 5,PCIe x1,Green,wireless-network-card,False,False
+309efe12dc2726733326972958504aa86a6c837b,fenvi Wi-Fi 7 FV-BE8800Pro,fenvi,,Wi-Fi 7,PCIe x1,Red / Black,wireless-network-card,False,False
+0ffa6dad951527ab9bd2a0ec34f08ec4e424b29f,Rosewill RNX-N300X,Rosewill,29.98,Wi-Fi 4,PCI,,wireless-network-card,True,False
+ace391d630e8eddbe5325c03057f7cc41bd5f1b8,Intel 62205AN.HMWWB,Intel,,Wi-Fi 4,Half Mini-PCIe,,wireless-network-card,False,False
+cd9a7c21a294d771207fc485b4c453f4328fea32,Edimax EW-7811UTC,Edimax,18.05,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,True,False
+d79e233a03d7bba43702e57b0adc31658913c2e6,TRENDnet TBW-108UB,TRENDnet,,Wi-Fi 4,USB Type-A 2.0,Black,wireless-network-card,False,False
+9b987ec4fba30e16c3e7bb916f264ee194853894,TRENDnet TEW-643PI,TRENDnet,30.66,Wi-Fi 4,PCI,,wireless-network-card,True,False
+b6f2852d10308095a2fb1c9dfba1b8d5086b5f6d,StarTech USB433WACDB,StarTech,18.5,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,True,False
+9a22a5a0bd4211bf105011a613c964097682ba67,Edimax EW-7811DAC,Edimax,,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,False,False
+5811a486f2b1b64f5d99d666074329cdbe45664b,Encore ENUWI-1XN45,Encore,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+352384df11519092410bad82a0f400a33fa2ae59,3M 78-6972-0104-0,3M,59.99,Wi-Fi 3,USB Type-A 2.0,,wireless-network-card,True,False
+44fcdd58a44d440a3ee497521fd7e817b5899ac9,TP-Link TL-WN8200ND,TP-Link,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+98de1dae787ea8cf9e694aa0c864dd48f6144e9f,Edimax EW-7822PIC,Edimax,44.95,Wi-Fi 5,PCIe x1,,wireless-network-card,True,False
+be9523c87073e354ed54e76319e917045598c9ca,Syba SY-PEX23063,Syba,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+e2cd6f0cfeda6481502c7517c3a60166d1c10730,Rosewill RNX-AC1900PCEv2,Rosewill,,Wi-Fi 5,PCIe x1,Red / Black,wireless-network-card,False,False
+dc4f010eddc64d161b85dc73015418b65c6a6216,fenvi FV-2030T,fenvi,,Wi-Fi 5,PCIe x1,Red,wireless-network-card,False,False
+db4d2450520bd289d062ae62244c5e44c28c4142,Asus USB-N13 C1,Asus,,Wi-Fi 4,USB Type-A,,wireless-network-card,False,False
+8a89209cc230a6da8fab307adbb4c88429952c77,Linksys WUSB6300,Linksys,38.99,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,True,False
+658bffb86dc4da08597af63375d60b7fa20490a9,TP-Link Archer T1U,TP-Link,16.98,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,True,False
+9efab8ba8cf90e4f273735e193d80abf7966d639,BrosTrend AC3L Linux Wi-Fi Adapter,BrosTrend,37.99,Wi-Fi 5,USB Type-A 3.2 Gen 1,Black,wireless-network-card,True,False
+59f3ac29b3225c4af0d7761dc545017c9332c616,TP-Link Archer T4U V2,TP-Link,27.94,Wi-Fi 5,USB Type-A 3.2 Gen 1,Black,wireless-network-card,True,False
+b3aec37817580758019c874a31b705077d79ac88,Rosewill RNX-N150PCx,Rosewill,99.95,Wi-Fi 4,PCI,,wireless-network-card,True,True
+f64f5165f4070042ea276df16fcc1e6e30e5123b,TP-Link TL-WN751ND,TP-Link,57.99,Wi-Fi 4,PCI,,wireless-network-card,True,False
+40fb38b784b0f96c994fda0cd1e5f81923d697ca,Edimax EW-7822UTC,Edimax,20.99,Wi-Fi 5,USB Type-A 3.2 Gen 1,Black,wireless-network-card,True,False
+cebd5903687a1224e533d8a048c26b7bb7d2a5f5,Linksys WUSB6100M,Linksys,39.97,Wi-Fi 5,USB Type-A 3.2 Gen 1,Black,wireless-network-card,True,False
+4ac0abdb7fdaaad43f4e7802e66f9bb9b2ec331c,Asus PCE-AC66,Asus,,Wi-Fi 5,PCIe x1,,wireless-network-card,False,False
+dc95d6feb8bea56d459333a6fc77ab6924b73044,Asus USB-N13,Asus,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+d8e5e4155f3805bc0c05d926f21794f372b4a148,Encore ENUWI-G2,Encore,,Wi-Fi 3,USB Type-A 2.0,,wireless-network-card,False,False
+ecc09e07e26d0f232fdb4b3eb366859fab0c0f66,Linksys WMP600N,Linksys,,Wi-Fi 4,PCI,,wireless-network-card,False,False
+3089e7dc52cdb10729f1f514901d91ede5c22a9b,Rosewill RNX-G300LX,Rosewill,,Wi-Fi 3,PCI,,wireless-network-card,False,False
+398b9d04e7ec6291b4a1f3e17ff404fb2e025ed2,Asus PCE-N53,Asus,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+9a0d61101982f1eaec5f836e33f7b367f969083c,Linksys AE2500,Linksys,64.97,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+467ef5c26656723c7f73380ab78564a6b74a8c89,Intel 2200BNHMWDTX1,Intel,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+a7dfc0910194adce6499518ad248d5a5071e5e57,Rosewill RNX-N600UBE,Rosewill,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+b80ecacc747aad99b23ac409e913e5e80fb92fa1,TRENDnet TEW-424UB,TRENDnet,,Wi-Fi 3,USB Type-A 2.0,,wireless-network-card,False,False
+9c78d30e8c919b11c5381ceaa217be58af61e110,Netgear WNA3100-100ENS,Netgear,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+c69fa450b5706dd873584e5b54a4a53a00afc8af,Netgear WNDA3100-100NAS,Netgear,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+54fa1cee32636a2071d723c24202da824c1f67e4,TP-Link TL-WDN3200,TP-Link,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+88cb4d8119cd2f8289986c7dbb8a5fb11d2fab4a,TP-Link TL-WN723N,TP-Link,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+5182bce147c5a1792c6cf732ff4a6b4eab356016,Intel 7260HMW,Intel,,Wi-Fi 5,Half Mini-PCIe,,wireless-network-card,False,False
+a534fb5e56472e2b87873bc8eef249f95a1b3cd7,TP-Link TL-WN7200ND,TP-Link,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+611e62ecbee1ccf4c1d731d325e371db0cc59ae3,Asus USB-AC53,Asus,,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,False,False
+0b4df10981b1dac02e10491555d14314c5146e85,Edimax EW-7822UAC,Edimax,44.99,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,True,False
+20d9788c0cb2345decdbafd165c7e9d2f5cc25aa,TP-Link TL-WN721N,TP-Link,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+b3b0d157184c96cee4719fde945083caced1b4c3,Belkin F9L1001,Belkin,17.98,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+6f17f55a3478bfbcb3bb32898b2f81f0aa927149,Rosewill AC1200UBE,Rosewill,,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,False,False
+8c63ccce4917c14ab3709613e4b935870e7c518b,Asus USB-AC51,Asus,,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,False,False
+2f20f997b9ed78cf28325ce120f1d235c6a0bb3d,StarTech USB150WN1X1W,StarTech,19.99,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+db6b53f95d2fd884c3cce14529865de6eb7cdefa,Intel 7260HMW,Intel,,Wi-Fi 5 (5 GHz only),Mini-PCIe,,wireless-network-card,False,False
+21f3e7bfd82d7c7b712ebd5ec4dcab55c4d98484,Asus USB-AC55,Asus,,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,False,False
+0766fe1f339ff28efea5f6256a50c6eaf2a92d1f,Rosewill RNX-AC1200PCE,Rosewill,,Wi-Fi 5,PCIe x1,,wireless-network-card,False,False
+31a6f6e9f9111e9764962aa5ad1f7e5b5e21cbb9,StarTech PEX867WAC22,StarTech,42.0,Wi-Fi 5,PCIe x1,,wireless-network-card,True,False
+07693fd2e02b78bbc9b81385597bdf9424e13a49,Rosewill RNX-N150NUB,Rosewill,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+d85e456a42777d78e98c52447f7412d5a4fa4c14,Linksys AE3000-CA,Linksys,76.89,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+ab18a31657e1b0ea27854e5264a41db229337143,Inamax 4332804407,Inamax,,Wi-Fi 5,USB Type-A 3.2 Gen 1,Black,wireless-network-card,False,False
+64d177d349b12f8be061717ddbdd42d1d223ea17,BrosTrend AC6,BrosTrend,,Wi-Fi 5,PCIe x1,Red / Black,wireless-network-card,False,False
+ee4f25cd3bd927c20bb47736d78ad1efa370ee82,StarTech USB433ACD1X1,StarTech,25.99,Wi-Fi 5,USB Type-A 2.0,Black,wireless-network-card,True,False
+139fcc9fd8f478fcd99fe31d6b0f2b6976730d14,TP-Link ARCHER T4UHP,TP-Link,,Wi-Fi 5,USB Type-A 3.2 Gen 1,Black,wireless-network-card,False,False
+fc55a82b0d0dd2c1213bc2895d6c93397625a164,InFocus INA-WIFIUSB-4,InFocus,,Wi-Fi 5,USB Type-A 2.0,Black,wireless-network-card,False,False
+5a7ae884d19bd314c13195703b016c03fa4e3c19,HP 8265,HP,,Wi-Fi 5,PCIe x1,Green / Black,wireless-network-card,False,False
+9c601f7ccf1d02840a4a67db7670b3e7dbaea3a8,fenvi FV8303,fenvi,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+2dc8a2ed5938fd6184c9a6ad308b3535b850325b,Intel 8265.NGWMG.DTX1,Intel,,Wi-Fi 5,M.2,,wireless-network-card,False,False
+2cd6597de9420bba2c2c380462c4853db9fe7d76,Intel AX210,Intel,,Wi-Fi 6E,M.2 PCIe,Green,wireless-network-card,False,False
+5d8ac46895599208815a3f83c28c0b23ca0a5dd2,Gigabyte GC-WBAX1200,Gigabyte,,Wi-Fi 6E,PCIe x1,Black,wireless-network-card,False,False
+e0602b1c378c1b2b0206b906500c3ea08601635c,SIIG JU-WR0112-S2,SIIG,16.22,Wi-Fi 4,USB Type-A 2.0,Black,wireless-network-card,True,False
+f9cea07f10ce90f19c42972ff9f89b16e6266ab3,Rosewill RNX-AC3000,Rosewill,,Wi-Fi 6,PCIe x1,Black,wireless-network-card,False,False
+a4939d2c40cea54f39c922d45d3180db1a385917,Belkin B2N002,Belkin,61.34,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+1670d75e4462f78b2bb2193540caf9d40ee35d0f,D-Link DWA-121,D-Link,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+724254b0d7a212b5fb7ed445df47afc59f2fc11a,D-Link DWA-162,D-Link,13.99,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+708f001a48ce037533a1419ad23da2142d71ff11,D-Link DWA-171,D-Link,36.0,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,True,False
+3b3ade7bb643119e33ca41e981db44273558ab5b,StarTech USB867WAC22,StarTech,41.23,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,True,False
+104e3b1511c70ce31d5ffd39f56ccf7f82f3ad31,TRENDnet TEW-806UBH,TRENDnet,23.87,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,True,False
+d42d3cee1f68457e82a532b20b9d42d5c4505b9f,BrosTrend AC1L,BrosTrend,27.99,Wi-Fi 5,USB Type-A 3.2 Gen 1,Black,wireless-network-card,True,False
+b952889424955525e8bc7236d0d57eac08d1343b,Netgear A6100-10000S,Netgear,25.0,Wi-Fi 5,USB Type-A 2.0,Black,wireless-network-card,True,False
+38235be697b81f2fe97df2feecf660e06502b911,Asus USB-N10,Asus,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+156e57444896157d5ee4345fc1546395d0cd4a07,Belkin F7D2102,Belkin,49.99,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+b1ba2ee451922eafb139d11437b0053f5c222f22,Encore ENEWI-1XN42,Encore,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+c67451c13a85af62e6bd09df4e57b574a0bab9e2,IOGEAR GWU625,IOGEAR,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+6b708105e4d8ef290d91c3c1e7d92cb598516ea5,Intel 2200BNHMWDTX1G,Intel,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+3da3d4c5e34fc45d09ece8cbd1ffd3dd58be4b3d,Intel 633AN.HMWWB,Intel,,Wi-Fi 4,Half Mini-PCIe,,wireless-network-card,False,False
+be8a928f3e8bd70713737cf6629bb2477d717900,Rosewill RNX-MiniN2(RWLD-11002),Rosewill,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+8ef570323e454f7d219b78493df172da2102a446,Rosewill RNX-N150PCe,Rosewill,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+d26d043612f2c4cfd3c587f963d2ee95f230bffd,Rosewill RNX-N150UBE,Rosewill,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+64296f1f6946e3b34002b893c5dd809749b31aee,Rosewill RNX-N180UB,Rosewill,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+f6a3aab7e40e9ceb3c3bcb2d312a63e2d923f503,Rosewill RNX-N180UBE,Rosewill,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+d76ea32172fe83ad46448055e507c94b34e098b4,Rosewill RNX-N250UBE,Rosewill,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+7a36c09fbe1e687138c9ceec9d9c1fca93df9c33,StarTech USB300WN2X2D,StarTech,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+4bd6e0ac851a8d4bce329fe2c245ce5c4e5a96ce,Syba CL-ADA23032,Syba,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+ddbfb9d2eb9916aa5af66f2c5a670f4c2755de52,Syba CL-ADA24004,Syba,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+9c93bc1d9a3c130ff4a441190b2e7cc920169e08,Syba SY-ADA23026,Syba,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+74066cb3f923c320c666845b9755b9f180aa53bf,TRENDnet TEW-648UB,TRENDnet,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+0f72ebb3f6e58f29439fd97eb48d50a74f028e42,TRENDnet TEW-646UBH,TRENDnet,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+125c4bfc096b8908913070742fde3b2623412bbf,TRENDnet TEW-703PIL,TRENDnet,,Wi-Fi 4,PCI,,wireless-network-card,False,False
+9dc47de79fb1fab10b41d6b69aa0e1c8be5f1026,TRENDnet TEW-703PI,TRENDnet,,Wi-Fi 4,PCI,,wireless-network-card,False,False
+847e6bf7e5563ac88b111ccf0161e66ffc41b490,Rosewill N900UBE,Rosewill,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+17ee45c2be66fe2dafffd7087a4685e5551cfd45,Asus USB-N53,Asus,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+334e5f62365e6a5e94278d5362032d0ac1805998,Asus USB-N66,Asus,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+939699c1ad81b0ebcc4066f11fb27838203c4eef,Linksys AE1200-NP,Linksys,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+03bbf5adcb7a169bb99505124ec20660fd04e7b6,Linksys AE1200,Linksys,19.98,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+3c81e6f6c51687b335e481793d0d56276e5ff09f,Rosewill RNWD-N1501UB,Rosewill,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+d04e166a136b71e58be3787f112da889f1534035,Linksys AE3000-NP,Linksys,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+6f6c93407cf894c9efad36173d88d38879007c50,Linksys AE3000,Linksys,39.95,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+1bfad6e173149ad9e50183c8d7b1b259dd13f86a,Rosewill RNX-N250PC2,Rosewill,,Wi-Fi 4,PCI,,wireless-network-card,False,False
+e778bbb5681da25278c37832859bfa9c1fd21da9,Rosewill RNX-N150HG,Rosewill,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+24682f1c46362a04c2241129f361ca38aaf8051d,Linksys AE2500-NP,Linksys,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+e1ff65c95d2232ab760c434dc3bbf1a3fbdbe469,Rosewill RNWD-N1502UBE,Rosewill,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+d934da9a00b3581fc0b0fdcef2b1d0343b32ccd8,Belkin E9L1500,Belkin,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+04c051dc374c84244641385f30ac715ba65855db,Belkin E9L3000,Belkin,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+50c7853395e79181511b4cfb2f37d27b51940c10,Belkin E9L6000,Belkin,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+795e7a1e105265fc8caf7a1bab87d410cbd1b019,Belkin E9L7500,Belkin,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+9e32f8f6db7c45c83d93f694d2affa2cdb50589d,Diamond WL700NXS,Diamond,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+a8362ff35ef8f80e01f437a480bfbdfaadb8c149,Encore ENUWI-1XN42,Encore,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+a69a7bc6993c17dd99c8b54b2a81317b79eaad90,Encore ENUWI-1XN4M,Encore,21.0,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+96879134c261aa15cc2503393ce5ecbb1d99372f,Encore ENUWI-2XN42,Encore,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+d2be8d426981091da52a9090f6534e6d66a10c0f,Encore ENUWI-2XN45,Encore,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+4b8c1ac1fef4eff494a90ce094ed821768936417,IOGEAR GWU627W6,IOGEAR,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+df68c2b6c937f248c38e5ab996044ac152c8ed1c,Patriot PCUSBW1150,Patriot,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+061a6099585d96a432bcdf2946f200dcfd9ce2cb,TRENDnet TEW-684UB,TRENDnet,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+975ae91e26d28538905d4ef10ea88c0ebb3ef330,TRENDnet TEW-649UB,TRENDnet,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+5d0730251c0f01e61faba3a027104e9643bcedac,Encore ENEWI-1XN45,Encore,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+83564dbea7493a5af0317287013a8c58dc2c1d8d,Encore ENEWI-2XN42,Encore,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+266ab670bb5dd01841146adf8711e1f2c7c97e24,Encore ENEWI-2XN45,Encore,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+652138584520c83c8b9faa299c8a0da0c48fb8c4,Rosewill N600PCE,Rosewill,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+91ce551386c78935ad253505226080af013bf4ee,TRENDnet TEW-623PI,TRENDnet,,Wi-Fi 4,PCI,,wireless-network-card,False,False
+f31f4d75d1d9c86c13f0dae5cc98f6cfeddc5999,D-Link DWA-125,D-Link,44.98,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+df108c23f390cd000a501bee832ab10993227bfa,D-Link DWA-130,D-Link,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+a92b05e5bf12b9652014a9bf3c048397af7631a3,D-Link DWA-160,D-Link,48.99,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+c01b3e6909984d398003481780d1f5cc41f492a9,D-Link DWA-182,D-Link,48.0,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,True,False
+9df89da3a436649fbe6287eb2046db26a1009abc,D-Link DWA-566,D-Link,49.99,Wi-Fi 4,PCIe x1,,wireless-network-card,True,False
+15a17593b092d3136b3a67952bcef40136eb4a6b,Netgear WN311B-100NAS,Netgear,,Wi-Fi 4,PCI,,wireless-network-card,False,False
+5f95da384472f1693d6d7bad2bdb0086bacdba16,Netgear WNA1000M-100ENS,Netgear,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+3ba739ad44feaac0df0b9d50ff76e4476f8af6ae,Netgear WNA1100-100ENS,Netgear,62.0,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+1c6dcbd2e1cb664ddeb857723ba0b0f0e0e503b0,TP-Link TL-WN350GD,TP-Link,,Wi-Fi 3,PCI,,wireless-network-card,False,False
+5eb13bfc206a78fc3263f8d3164899b200ac7fc2,TP-Link TL-WN727N,TP-Link,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+ea340417674c0988628bdeb72765b0f0fd3e22e2,Intel 6235ANHMW,Intel,,Wi-Fi 4,Half Mini-PCIe,,wireless-network-card,False,False
+5faf8e4359d7464b285be7dbafd7437e3f225015,Intel 105,Intel,,Wi-Fi 4,Mini-PCIe,,wireless-network-card,False,False
+aa827016995e8fb0cfbcbc35ef1655a5a80e73f1,Intel 135,Intel,,Wi-Fi 4,Mini-PCIe,,wireless-network-card,False,False
+5b25717cef3e2d977445d7b8bb781bafcf3b2b09,Intel 2200BNHMW,Intel,,Wi-Fi 4,Mini-PCIe,,wireless-network-card,False,False
+91349d8a2c25807121c9d71371d75ecc27540ac1,Intel 7260HMW,Intel,,Wi-Fi 4,Mini-PCIe,,wireless-network-card,False,False
+a2801b51f34fe673d34c8f02e4b3376b030746ed,Intel 7260HMW BN,Intel,,Wi-Fi 4,Mini-PCIe,,wireless-network-card,False,False
+98751de55c9f1acd680e00dc268060f91e20fa2c,Linksys AE6000,Linksys,,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,False,False
+cbe0bc3a428caf43e0c9e45a4d6dbcae36dc21c0,Orico ORICO WRA150,Orico,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+abfa1d11fcbbd98ad253a46e2f1db8ef96816972,Orico ORICO WRB150,Orico,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+c37cec41c331c7f2d84a5ecae0102fce864d9ce3,Orico ORICO WRD150,Orico,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+8f649b531818ac9b6af5d1231d92634f706096af,Orico WRD150BLK,Orico,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+bd979524b4b2248739f5482cf7e7b237995195c4,Samsung WIS12ABGNX/XAA,Samsung,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+0d9f3be0f2e5b6f636267443b4a5c74736c9a21a,StarTech PCI300WN2X2,StarTech,,Wi-Fi 4,PCI,,wireless-network-card,False,False
+b6de17b05701936a41beb3c465ab767968c66b8d,TRENDnet TEW-624UB,TRENDnet,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+4ae221abaa7fdaadb91e6fb9bf4cf9a5f2bdf902,TRENDnet TEW-664UB,TRENDnet,49.99,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+14a363d4c8bf3326eb9b85894e1192f8421da321,TRENDnet TEW-726EC,TRENDnet,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+d94e815464f184c866090d593882eeeec1d2ee1a,TRENDnet TEW-805UB,TRENDnet,27.83,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,True,False
+27a04515277e7ba0d1ef75be8802a80c44b28a7a,D-Link DWA-180,D-Link,,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,False,False
+6ff22691820769c7754d6f4e7a839f5c5a1de3da,D-Link DWA-525,D-Link,,Wi-Fi 4,PCI,,wireless-network-card,False,False
+395b493ded1509d9854b203d0f1eb5da8d2aa673,Edimax EW-7811Un,Edimax,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+ade8c312e6a6fbe9180f36eedefdde5565a98428,Edimax EW-7128Gn,Edimax,,Wi-Fi 4,PCI,,wireless-network-card,False,False
+e95f92207ed8354edc3061e94f6d96152304e1e3,Edimax EW-7612PIn,Edimax,42.49,Wi-Fi 4,PCIe x1,,wireless-network-card,True,False
+f713660e9cf1b68932b7cfe0827234d8c10b0b00,Edimax EW-7711USN,Edimax,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+c9fe8101c869fbea0e6a67afd1d7fa3f50cf42db,Edimax EW-7722In,Edimax,,Wi-Fi 4,PCI,,wireless-network-card,False,False
+dc8e4610aac464f01c4e49434f144b8165824774,Edimax EW-7722UTn,Edimax,23.98,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+c2912dc8f2ba30b65924776c7548642b91d3bfd4,Edimax EW-7722PnD,Edimax,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+2305b3b7638ec31065c3a76f2d0126d6a2814025,Edimax EW-7722UnD,Edimax,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+5d307d83e16156d84ca2ad7cbe338d0b5cbbc372,Hawking Technology HAWNU1,Hawking,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+c8e04976ba98e4ae61a32e9977e92b3bedca9568,Hawking Technology HAWNU2,Hawking,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+8eaea2c905e508ae68d89b42e0e036e9a0f97c97,Hawking Technology HD45U,Hawking,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+7fc296528747760c54cfff69bcd0bc7d2ca2911b,Hawking Technology HWDN3,Hawking,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+84b94cae817dc1dded90c4ccb20389f045946530,Hawking Technology HWUG1,Hawking,,Wi-Fi 3,USB Type-A 2.0,,wireless-network-card,False,False
+bfe17e95b3653133158c0d4a0093f8d7060525d3,Hawking Technology HWUN4,Hawking,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+a194cecb7018f6c4e4b5d96a27e342f14eb55454,IOGEAR GWU523,IOGEAR,,Wi-Fi 3,USB Type-A 2.0,,wireless-network-card,False,False
+9eb12e571f4624da0db8b52fa49c853dea8f3752,Patriot PCBOWAU2-N,Patriot,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+7b2606426ccaabe27d008a08dad0a2d8c32d1f29,Rosewill RNX-G300EX,Rosewill,,Wi-Fi 3,PCI,,wireless-network-card,False,False
+a8987dd59c4d4b5252c0dcda4acc67f6c964850b,SIIG CN-WR0811-S1,SIIG,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+ebba66179d3d9d9e5935b59f53e0cea5b7b70bcd,Belkin F9L1002,Belkin,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+55b3a17391f2e850fd7e32d84aee2bfbcec3f594,Belkin F9L1103,Belkin,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+48c2c1c17ec55291bf454e02d841839c94614bf4,Belkin F9L1109-OM,Belkin,,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,False,False
+a8fdae0cacef733df7f96dea747be86f116e4802,Buffalo Technology WI-U2-300D,Buffalo,43.98,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+0510d997c31715916d1e08dffa38ba7c6f1b888a,Belkin F7D1102,Belkin,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+c0f4c072f02706686f1c2d6fbcaaa2ecc83912ff,Buffalo Technology WI-U2-433DM,Buffalo,,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,False,False
+26b37a7ca69aade31d008d3a62073f03ca078ea4,Cisco AM10,Cisco,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+1388ae3c20b5020df3f7d95c427467fc274f2dd9,D-Link N69506,D-Link,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+33561184d00e83a1b5251d8bb85dc58c428364e8,D-Link DWA-548,D-Link,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+ffa23a5671c2fd22e75b1502e4defbad970ca20a,Encore ENLWI-N3,Encore,,Wi-Fi 4,PCI,,wireless-network-card,False,False
+de862e4e07af3551b17fbf1412b99d32690f1cb3,Linksys WUSB600N,Linksys,52.99,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+1e9a42ea043989c2a1dc7880ff167b6e42715e1e,SIIG JU-WR0012-S1,SIIG,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+d4ed094ed28d40d6f721ddede01b0e99218a3e6a,SIIG JU-WR0212-S1,SIIG,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+20ce93a00d149d4ce5364ce11a7d7b5fe63ce123,TRENDnet TEW-804UB,TRENDnet,,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,False,False
+181ec5e0a8900f31a01404a10fe4649cc9394ac1,SIIG JU-WR0112-S1,SIIG,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+008fb9901c32f002c05647b62d146d5930727671,TP-Link TL-WDN4200,TP-Link,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+c84ebadbd5ccceb1661b0b37337d96f2e100f276,Cisco AE3000,Cisco,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+b0a7eff4294d0fd44b0fac5ea2becd56d6d5d80e,Intel 6205,Intel,,Wi-Fi 4,Mini-PCIe,,wireless-network-card,False,False
+07a48a58435605af87dcdabd4a1076caf5dc742d,Intel 6235ANHMW,Intel,,Wi-Fi 4,Mini-PCIe,,wireless-network-card,False,False
+5e0986f47db9d5fc5a0bd142a09d02a009f330c5,Belkin AE3000,Belkin,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+0d1b3d2f2e06e254c7fc78a04363a0924901e2fd,Belkin F7D2102TT,Belkin,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+3a376dfe76c85714cf4f2aac1a1c91ea5690d9d7,BenQ WDRT8192,BenQ,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+3564a9bad3c864d3e7595ffcf2e4be14206bd0ad,Cisco AE1200,Cisco,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+13c59ee0b8ea5e0eeee8687ae66be9be6145a500,Cisco AE2500,Cisco,59.99,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+b2a1bd7affecea53b66b5e12228df58f29dd2f48,Hawking Technology HD65U,Hawking,,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,False,False
+f7642cecd371208407323ba3b0dee6d8e7805cce,Hawking Technology HW7ACU,Hawking,,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,False,False
+694ff4d7b1ef0ca5f1b65a211edbe2ea1a7af555,IOGEAR GWU735,IOGEAR,,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,False,False
+7a289d257b65e14845b1bf7b10a2b17a1ed24f35,Rosewill RNX-AC1200UBE2,Rosewill,,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,False,False
+ad41551ed04c267639c646d3e7d922a04227d401,Rosewill RNX-N600UB,Rosewill,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+9983ccee1208bd137ef857e3cdb76840b91da068,StarTech USB300WN2X2C,StarTech,18.0,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,True,False
+af60fa72d496473f26a742a4ba47d2ba89c02def,Edimax EW-7711MAC,Edimax,,Wi-Fi 5,USB Type-A 2.0,,wireless-network-card,False,False
+8b1df8aa210bf6195c66d339c6372a3f7cc34cb8,Intel 3160.NGWG,Intel,,Wi-Fi 5,Mini-PCIe,,wireless-network-card,False,False
+1943add9c61dc95f33ed4ea3eb07077b6b34c332,Intel 6300,Intel,,Wi-Fi 4,Mini-PCIe,,wireless-network-card,False,False
+03f78e4a1125af60b307e955e47ba71553124d01,Intel 7260,Intel,19.98,Wi-Fi 4,Mini-PCIe,,wireless-network-card,True,False
+933bf841632e41d78227b56c7098f4f5e7b3635c,Intel 7260,Intel,,Wi-Fi 4,Mini-PCIe,,wireless-network-card,False,False
+97410e56f55bf42b586fe74b5a10a98d2ddacf5f,Asus USB-AC68,Asus,,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,False,False
+0c84040f6369aa3aae06baafc2f236069c7dbb3c,AUKEY WF-R12,AUKEY,,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,False,False
+56f6e51c66fc3b797ff691315a71ad95959e6bf5,Athenatech NE-WN3201D,Athenatech,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+888ca3841473495903c1b5516aa001e9b1e8bbb0,D-Link DWA-192,D-Link,,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,False,False
+b2515818e568848d65a96afa0a069eaae5172445,Rosewill RNX-N600PCE_v2.0,Rosewill,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+151d4a76b6216e96179ec25f6b86b0171626e1dd,Rosewill RNX-N300UB,Rosewill,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+507bae2925c827eedbec601c47dd39316cdb904e,TRENDnet TEW-807ECH,TRENDnet,,Wi-Fi 5,PCIe x1,,wireless-network-card,False,False
+21ea12d4164eb8f8237b753b9d4023f7a2bfef22,Linksys AE2500-CA,Linksys,,Wi-Fi 4,USB Type-A 2.0,,wireless-network-card,False,False
+9d656cc559e6d10cbf3c6a10257d1c1185f048ae,Netgear WF2190,Netgear,,Wi-Fi 5,USB Type-A 3.2 Gen 1,,wireless-network-card,False,False
+affc1ad391beb62f379e42b8633bf67be7c7d54c,Hawking Technology HW17ACU,Hawking,,Wi-Fi 5,USB Type-A 2.0,Black,wireless-network-card,False,False
+296d65dcedeaa959bd6788722063cdf93a3b6dc5,Rosewill RNX-AC1200UBv2,Rosewill,,Wi-Fi 5,USB Type-A 3.2 Gen 1,Black,wireless-network-card,False,False
+036150089dc7eb5e28e79bda5dd733cb542c9ee9,Rosewill RNX-AC600HGUBEv2,Rosewill,,Wi-Fi 5,USB Type-A 2.0,Black,wireless-network-card,False,False
+2358462fcb8de9c7d05e599798fc2ba30b492258,Rosewill RNX-AC600NUBv2,Rosewill,,Wi-Fi 5,USB Type-A 2.0,Black,wireless-network-card,False,False
+94b94ec04f132968d372f98cf93069e9cbefe931,Asus USB-AC55 B1,Asus,,Wi-Fi 5,USB Type-A 3.2 Gen 1,Black,wireless-network-card,False,False
+eaae24712048e5a2b5e4b44802bb9dbeeaf754d9,TRENDnet TEW-808UBM,TRENDnet,,Wi-Fi 5,USB Type-A 2.0,Black,wireless-network-card,False,False
+4279a29ca125dc0048d5c5ab528523700bd059e4,Rosewill RNX-AC2030PCE,Rosewill,,Wi-Fi 5,PCIe x1,Red / Black,wireless-network-card,False,False
+96ea30592c4274509f719213e823b0fd4fc7ef0f,Rosewill RNX-AC1900UB,Rosewill,,Wi-Fi 5,USB Type-A 3.2 Gen 1,Black,wireless-network-card,False,False
+6dbef5bfdffd9e55b4c89ad5da8078ad3ca4f8c5,Hawking Technology HW12ACU,Hawking,,Wi-Fi 5,USB Type-A 2.0,Black,wireless-network-card,False,False
+827b0f4c9785c1ab2bd422b20ca5fdaa75ac7b23,Syba SY-PEX23059,Syba,,Wi-Fi 4,PCIe x1,Green / Black,wireless-network-card,False,False
+3da39527e4e6c5c66b8c4ce9fc2af5448be24761,Sabrent USBG802,Sabrent,,Wi-Fi 3,USB Type-A 2.0,Black,wireless-network-card,False,False
+87c684dbe52c9390136ef8ac710b69651f568adc,Sabrent USB-802N,Sabrent,,Wi-Fi 4,USB Type-A 2.0,Black,wireless-network-card,False,False
+fc99d2bd9d0b3b8b960977d0cd3bc56f77e3d474,Belkin Linksys AE1200-NP,Belkin,,Wi-Fi 4,USB Type-A 3.2 Gen 1,Black,wireless-network-card,False,False
+c969d744ecfdd9409ef196c1178d864a9d4b7e74,Hommie N900,Hommie,,Wi-Fi 4,PCIe x1,,wireless-network-card,False,False
+56ffc8d69a9f5db0b24b64ebfc23daba62f45ba4,fenvi FV-AX3000R,fenvi,,Wi-Fi 6,PCIe x1,Red / Black,wireless-network-card,False,False
+bcfa31547b20bc99ce3e182086c11322b738aacc,Intel AX210 w/vPro,Intel,,Wi-Fi 6E,M.2 PCIe,Green,wireless-network-card,False,False
+300d53e3829ab3de7aa5d187edca7e4b28299fcd,fenvi Wi-Fi 7 FV-BE8800,fenvi,,Wi-Fi 7,PCIe x1,Red / Black,wireless-network-card,False,False
+ea5794666e0b6c3b309f87c3a558ac91a56b78f3,D-Link DWA-181-US,D-Link,19.79,Wi-Fi 5,USB Type-A 2.0,Black,wireless-network-card,True,False
+6d880f9aaba3ae3e699f4891a1ef68619c0c140b,D-Link DWA-X3000,D-Link,,Wi-Fi 6,PCIe x1,Black,wireless-network-card,False,False
+afb708ecf79a5fba4115e4aa1faa0cfb7c1002a3,SIIG LB-WR0111-S1,SIIG,45.99,Wi-Fi 6,PCIe x1,Black,wireless-network-card,True,False
+7c673e80da315078584db8a6db535d788a332b23,SIIG LB-WR0011-S1,SIIG,39.51,Wi-Fi 5,PCIe x1,Black,wireless-network-card,True,False

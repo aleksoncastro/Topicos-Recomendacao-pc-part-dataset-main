@@ -1,0 +1,9 @@
+id,name,marca,price,type,form_factor,categoria,tem_preco,outlier_preco
+71ef474ac466ec4582944ff654aa36cbca769b03,NZXT HUE 2 RGB Lighting Kit,NZXT,,LED Controller,2.5,case-accessory,False,False
+fd3f5dc3aae357373681c23eee22d4ceb421f358,NZXT Hue+,NZXT,,LED Controller,2.5,case-accessory,False,False
+97a4386db797f2ac5d3869c2250fa74525b4cb75,NZXT Aperture M,NZXT,,Card Reader,5.25,case-accessory,False,False
+72700daa4e2c8809dc2ddff0017e795fbd858627,Vantec UGT-CR935,Vantec,,Card Reader,3.5,case-accessory,False,False
+2cd69ef480b6fa9185637b7d2ba50876cfce1760,NZXT Hue,NZXT,,LED Controller,5.25,case-accessory,False,False
+c9a55eba00c03d0191c618b27a097c1590eca956,nMEDIAPC ZE-C668,nMEDIAPC,,Card Reader,5.25,case-accessory,False,False
+36a7cfd55d66a90b1148d889cf333512a6ebcc01,nMEDIAPC ZE-C288,nMEDIAPC,,Card Reader,5.25,case-accessory,False,False
+f4d626c2b8db9ca797a5b7cab57c38830b020295,Unitech U3903,Unitech,,Card Reader,5.25,case-accessory,False,False

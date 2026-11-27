@@ -1,0 +1,158 @@
+id,name,marca,price,interface,color,categoria,tem_preco,outlier_preco
+052764f03a299c4fda6b5032d30305cd28984623,TP-Link TG-3468,TP-Link,14.99,PCIe x1,,wired-network-card,True,False
+d558e28dbc98e1a3263525328d4f368b151026ee,StarTech ST10GPEXNDPI,StarTech,452.97,PCIe x4,Black / Silver,wired-network-card,True,True
+daa226e3da27904b6457860fa0f3b3d400a3834d,Asus XG-C100C,Asus,99.99,PCIe x4,,wired-network-card,True,False
+9f63387d92166f80a9915ab4b9187351b3c942a1,Intel X540-T2,Intel,87.0,PCIe x8,,wired-network-card,True,False
+6c1d7f58772e12ec4fe43d584a66ea0a8d4b7e94,TP-Link TX201,TP-Link,24.99,PCIe x1,Black / Gold,wired-network-card,True,False
+f97a6099fed9e25c9f284056c0cd4f86cf57a75e,TP-Link TX401,TP-Link,99.99,PCIe x4,Red,wired-network-card,True,False
+b2095a841df74d8ebcbabcfd429b369e7bb7bc11,Intel X550-T2,Intel,116.72,PCIe x4,,wired-network-card,True,False
+b33db60ba621551a1870d593c4ad24f24376d02d,StarTech ST1000SPEX42,StarTech,420.79,PCIe x4,,wired-network-card,True,True
+d8aff13c6bf6b92be4f40dbdebbc5cd7383079da,Intel X710-T2L,Intel,256.99,PCIe x8,Green / Black,wired-network-card,True,True
+09bea8a9d12fa5646241dd029e6dee558089e43f,Intel X540T1,Intel,129.0,PCIe x8,Black / Green,wired-network-card,True,False
+ce757ac3b0a6ceeddcf02eeca36b0e7430ba8818,Intel X520-DA1,Intel,99.0,PCIe x8,Green,wired-network-card,True,False
+a0453c7c4edd516bb0b6ad7995f70e59a2369ebf,Intel EXPI9301CTBLK,Intel,54.24,PCIe x1,,wired-network-card,True,False
+f2cd69c803bb4329ba68e40df91cc926eacef77e,TRENDnet TRENDnet TEG-10GECTX 10 Gigabit PCIe Network Adapter,TRENDnet,74.98,PCIe x4,Green / Silver,wired-network-card,True,False
+e6cf6e13ab18e8b1583b959d3420206fad480943,Gigabyte GC-AQC107,Gigabyte,,PCIe x4,Black / White,wired-network-card,False,False
+001356dedf7a1c4d940ac30fa6595bc855ee78b3,Syba SD-PEX24066,Syba,30.47,PCIe x1,Green / Black,wired-network-card,True,False
+a50faf1e5800df18280af64fd2508b55f22dab3f,Intel E1G42ETBLK,Intel,51.0,PCIe x4,,wired-network-card,True,False
+36be5870c9f7e42f1df98897a59bcf156d1a60e2,StarTech ST10GSPEXNDP2,StarTech,287.99,PCIe x4,Black / Silver,wired-network-card,True,True
+36811fbe875d522600704d477bd6491636ebd44c,TP-Link UE306,TP-Link,11.99,USB Type-A 3.2 Gen 1,Black,wired-network-card,True,False
+0e54450fb14c8d079ccc227efb98f749eef379f8,StarTech ST10GSPEXNB2,StarTech,149.94,PCIe x2,Silver / Black,wired-network-card,True,False
+50eb891d44e433ce253a83622b7e214a684e9f58,Intel E1G44HTBLK,Intel,92.04,PCIe x4,,wired-network-card,True,False
+2c88c03eb2e8caa7ffc64452ace9c552e27c1053,TP-Link UE300,TP-Link,9.97,USB Type-A 3.2 Gen 1,,wired-network-card,True,False
+2abec36b94802143729cf7512ad75b9265e808a8,Intel I226T1,Intel,74.73,PCIe x1,Green,wired-network-card,True,False
+ad4f4b3f179d4de1878e4f27c7e3afd0372b8523,Asus USB-C2500,Asus,29.99,USB Type-A 3.2 Gen 1,Gray,wired-network-card,True,False
+c0383913a35520108884f6c3696d3bc260eac331,QNAP QXG5G1T111C,QNAP,99.0,PCIe x1,Blue / Silver,wired-network-card,True,False
+d3b849efffe765e55c55b977bd5c4eccd0821170,TRENDnet TEG-25GECTX,TRENDnet,19.98,PCIe x1,Blue,wired-network-card,True,False
+974084b44c53b296301dfaf46f7e7b0dbaa0609f,Belkin F5D5000,Belkin,6.99,PCI,,wired-network-card,True,False
+13b2ab227a3acfd567b6d1c00df3c8e678b3e1ac,Syba SD-PEX24055,Syba,82.31,PCIe x4,Green / Black,wired-network-card,True,False
+54bd936bbff3be2a4c0b6f2b9a0494d5f0f688ce,StarTech USB32000SPT,StarTech,63.06,USB Type-A 3.2 Gen 1,,wired-network-card,True,False
+7396622987c1004b2c476b1d4d79e667e811eab5,Syba SI-PEX24042,Syba,37.97,PCIe x1,Green / Black,wired-network-card,True,False
+572c9d4442a44300781fadea118e0b5218683931,Intel EXPI9301CT,Intel,57.93,PCIe x1,,wired-network-card,True,False
+d7b3732e590c2bfd8d8ecf64f1e442206037a980,QNAP QXG2G2TI225,QNAP,79.0,PCIe x2,Green / Copper,wired-network-card,True,False
+da05663d830e57680fae00ed4543229b659a9d15,Syba SY-PEX24045,Syba,59.99,PCIe x4,Green / Black,wired-network-card,True,False
+7cc5503649b9c19c3a526726e1300903d680a079,Intel X520-T2,Intel,,PCIe x8,Green / Black,wired-network-card,False,False
+19667c0cd25fc65cafcb78ba3793ece29ffe56b6,StarTech ST10GSPEXNB,StarTech,196.95,PCIe x4,Black,wired-network-card,True,False
+df1d0da8075bfd84c34d82ac641271cd79125bdf,Intel E1G44ET2BLK,Intel,355.2,PCIe x4,,wired-network-card,True,True
+52353fb3736f6a7bf5ed6e6aec9230b53f2a90c5,QNAP QXG-10G1T,QNAP,139.0,PCIe x4,,wired-network-card,True,False
+c7cba6d1cf904c4a858a217a4b33a5d3a34478ed,Intel EXPI9404PTLBLK,Intel,,PCIe x4,,wired-network-card,False,False
+73055d22cf1e56a170c628e91628a56c64d39d27,StarTech ST2000PEXPSE,StarTech,157.99,PCIe x1,,wired-network-card,True,False
+c518ae96497f173ccb45a59a6e5da615bf049fdd,StarTech ST1000SPEX2,StarTech,24.14,PCIe x1,,wired-network-card,True,False
+07b90e990e660a1b044c60626140b08752e475a3,Syba SY-ADA24029,Syba,9.99,USB Type-A 2.0,,wired-network-card,True,False
+c6ab91055a9199f6a78d5692a113010799955eba,Monoprice 112909,Monoprice,,USB Type-C 3.2 Gen 2,White,wired-network-card,False,False
+20be531242cd1b3b7d5c281e78c84b93da8a5611,Tripp Lite U436-06N-2P5,Tripp Lite,39.7,USB Type-C 3.2 Gen 1,Black,wired-network-card,True,False
+260dddcbce83813705fbabc62df669ba044f6a7d,SIIG LB-GE0311-S1,SIIG,218.5,PCIe x8,Black / Green,wired-network-card,True,True
+a943e2b90e35bdb6ab5cd1895cb3870b551a8e1c,QLogic QLE3242-CU-CK,QLogic,,PCIe x8,,wired-network-card,False,False
+1d8584126557a972744df60c3eb1a4e4fba185d7,Lenovo 7ZT7A00482,Lenovo,112.5,PCIe x1,Green / Black,wired-network-card,True,False
+2acc0cd7b23b1e17a5b6a9687648036c5e6115bb,StarTech ST2GPEX,StarTech,35.51,PCIe x1,Black,wired-network-card,True,False
+4837d8f7d3bed60c8b55e3e5c65f9e9afc2db860,D-Link DXE-820T,D-Link,,PCIe x8,,wired-network-card,False,False
+83578861c538dd11fbe86ad9e65e59e7cdbb9eed,SIIG LB-GE0211-S1,SIIG,152.88,PCIe x4,Green / Black,wired-network-card,True,False
+f8b65ea0e5cfb26e8207a771088eed7d02b199f3,Intel EXPI9404PTLBLK-1PK,Intel,,PCIe x4,,wired-network-card,False,False
+996720a90750e0cdfdd8a0ee0d75d3a49d54693f,Intel E10G42BT,Intel,,PCIe x8,,wired-network-card,False,False
+a2a16d0427a592444a48a66d92c9ad6f80e3d84e,Gigabyte GC-AQC113C 10G,Gigabyte,,PCIe x4,White / Silver,wired-network-card,False,False
+51d04a9e5fe646d762c5b7e5dd99fa16a1f64926,Intel EXPI9402PTG2P20,Intel,69.61,PCIe x4,Green / Black,wired-network-card,True,False
+43787ae0f476b309c0924472723cc648a564de2c,Intel E1G44HT,Intel,106.0,PCIe x4,,wired-network-card,True,False
+ff3f704c5b4b321a7c68a3fba4498f8c51f34b7e,Intel E1G42ET,Intel,,PCIe x4,,wired-network-card,False,False
+ab72f7f20b797c7ed2d83e48452dd30993ef6e92,QNAP QXG-2G1T-I225,QNAP,69.0,PCIe x1,Green / Silver,wired-network-card,True,False
+bb9ed54621f05950ecb75cf43bf7f4df4af0ef95,Asus ROG AREION,Asus,,PCIe x4,Black,wired-network-card,False,False
+b16c834109c734b4dc61b934791f5cbd71667af9,TP-Link UE300C,TP-Link,12.99,USB Type-C,Black,wired-network-card,True,False
+4668f9c9e9e2d4fb8b05d464a3b8df9af79a6b72,TRENDnet TUC-ET2G,TRENDnet,21.99,USB Type-C 3.2 Gen 1,Black,wired-network-card,True,False
+a66a11f0a0c9afe0bd575f44ba1966cb069e5619,Syba SY-PEX24028,Syba,92.87,PCIe x1,,wired-network-card,True,False
+d1aa7bd922e111bd3950411b93136f4c742334d3,Intel EXPI9404PTL,Intel,,PCIe x4,,wired-network-card,False,False
+519b50d99a4025dbb43a11d706763a62b207cd62,Intel PWLA8391GTBLK,Intel,32.0,PCI,,wired-network-card,True,False
+eaece1c14ce9e67bd1df488150665ae3886117e1,StarTech ST1000SPEX2L,StarTech,21.82,PCIe x1,,wired-network-card,True,False
+bef6afcdfe7e5d4817839a5bc7892fce7b90541c,D-Link DGE-560T,D-Link,18.63,PCIe x1,,wired-network-card,True,False
+cebc4c0ced5e819dc8f0ee816fc49443be06ba01,Intel E1G44ET2,Intel,,PCIe x4,,wired-network-card,False,False
+33958141d40cff5dc8756845613e42b1e2c8f90d,StarTech US2GC30,StarTech,42.99,USB Type-C 3.2 Gen 1,Silver,wired-network-card,True,False
+769d910dbb71dd6a285723e92eb8f3e1217d65ac,StarTech ST1000SPEX4,StarTech,375.99,PCIe x4,,wired-network-card,True,True
+56336ea5c8a4e78bb230130576dcbda055026acb,Belkin F2CU040btBLK,Belkin,20.99,USB Type-C 3.2 Gen 1,,wired-network-card,True,False
+abc1d35715d212c0880e94964bce529c6085c658,EDUP EP-9602GS,EDUP,,PCIe x1,Black,wired-network-card,False,False
+8ee2e3ca42b59c8abd75e1da645c34468d3223b5,StarTech USB31000S2,StarTech,23.23,USB Type-A 3.2 Gen 1,Black / Silver,wired-network-card,True,False
+189fee8e7fb248da1b4457f8d9fdf9d764eaa4c0,Syba SD-PEX24009,Syba,19.99,PCIe x1,,wired-network-card,True,False
+b6dc9af4f5db100c65aff6b061f8d6f61d2c3ef3,VisionTek Bigfoot Killer 2100,VisionTek,,PCIe x1,,wired-network-card,False,False
+9fe808c8e19dbd6f93aa2f22aec5046a0be7daea,StarTech ST3300U3S,StarTech,42.1,USB Type-A 3.2 Gen 1,,wired-network-card,True,False
+0158339e0525e4165ab8faca9dd2e6ac47895b05,Plugable USBC-E1000,Plugable,18.95,USB Type-C 3.2 Gen 1,,wired-network-card,True,False
+8e06e8192fccac3ac07726f4afa0b22bc27d6a0b,Syba SY-HUB24047,Syba,56.86,USB Type-A 3.2 Gen 1,Black,wired-network-card,True,False
+fb23d8f0e212d91ad282f6f333c4ca1915321e11,Rosewill RC-NIC416Dual,Rosewill,,PCIe x4,Black / Silver,wired-network-card,False,False
+60c27675f88cd2ba1c29be01ae0a2f2f2e8ee6ed,Supermicro AOC-STG-i2T,Supermicro,,PCIe x8,,wired-network-card,False,False
+1341461b7e4a9b52eacbccb1076a509b5ae894b1,SIIG LB-GE0014-S1,SIIG,114.99,PCIe x4,Green / Black,wired-network-card,True,False
+7b920c7f1926d3de924d8a75b4e4f01a6166281a,StarTech PEX100S,StarTech,30.99,PCIe x1,,wired-network-card,True,False
+b2ac6882a8d170417a13bba2698b20a13735d309,Intel PWLA8490MTBLK,Intel,,PCI-X,,wired-network-card,False,False
+549134224c3e891986527f7bb7e1d2c63a4f9b77,Supermicro AOC-SG-i2,Supermicro,,PCIe x4,,wired-network-card,False,False
+a85894000612d33d4d5c416bec6d66664bf0ecb3,Syba SY-PEX24030,Syba,22.65,PCIe x1,,wired-network-card,True,False
+86694f23f058c7b8d52bbadd908bde541da24d63,Intel EXPI9402PT,Intel,,PCIe x4,,wired-network-card,False,False
+736f66c2f52cd76b4d3b2606f4d1e436f841789c,Intel PWLA8492MT,Intel,92.0,PCI-X,,wired-network-card,True,False
+8ce4d1825e8279f105c1e67b8f0d2833212c1ee0,Acer NP.OTH11.005,Acer,,USB Type-A 2.0,,wired-network-card,False,False
+fb6d1081b51f7d70d682bf50176b8eb8c0f3f165,TP-Link TG-3269,TP-Link,,PCI,,wired-network-card,False,False
+ee620421ab43209b37f1681b4913c2826a59d0b1,TP-Link TF-3239DL,TP-Link,,PCI,,wired-network-card,False,False
+859c873a784509cfb6f9142d1fcad327263a3930,Edimax EN-9130TXL,Edimax,,PCI,,wired-network-card,False,False
+2b7d168424073dab50d210213bddb9c2473fea14,Plugable USB3-E1000,Plugable,15.26,USB Type-A 3.2 Gen 1,,wired-network-card,True,False
+33ef5f674328eb4cfaaf041509c110d61632fba4,D-Link DUB-1312,D-Link,44.17,USB Type-A 3.2 Gen 1,Black,wired-network-card,True,False
+69b98fb7f975f71086c9abc0c306e62308fa5c83,Supermicro SGP-i4,Supermicro,,PCIe x4,Green / Silver,wired-network-card,False,False
+e0ead67499627369bab80721f5274f249ef10e17,Edimax EN-9320TX-E,Edimax,,PCIe x4,Silver / Green,wired-network-card,False,False
+dae1da2b289c6429d1948ebc2d511e734dfddfb7,Asus PCE-C2500,Asus,,PCIe x1,Red,wired-network-card,False,False
+747b5c2a448c7d19ba56128eb9d90acb7ab2c621,TP-Link UE305,TP-Link,,USB Type-A 3.2 Gen 1,Black,wired-network-card,False,False
+e1a62a19f15973b62c01a5f08de54f88b97ca2f1,StarTech ST10GSPEXNDP,StarTech,,PCIe x8,Black / Silver,wired-network-card,False,False
+a328feb0906d4c1dab1ce8068d4ecdba4553aa6c,TRENDnet TEG-PCITXR,TRENDnet,14.66,PCI,,wired-network-card,True,False
+90f8691727f8f745081167239edde309539ab229,Intel PWLA8391GTLBLK,Intel,50.0,PCI,,wired-network-card,True,False
+54c6b0faf70d079cdaa4d6e3591b1101023683f8,Rosewill RC-400-LX,Rosewill,,PCI,,wired-network-card,False,False
+6ef439e1e2df1f439d5af5cdd0885bfb2bc2fc54,Syba SY-ADA24027,Syba,19.95,USB Type-A 2.0,,wired-network-card,True,False
+d9c580709253a441ecc909afebd025353226b0a2,Asus NX1101,Asus,,PCI,,wired-network-card,False,False
+96430eca7b1599ebbd26aa83bd7f94de143e5ac9,Netgear GA311,Netgear,34.9,PCI,,wired-network-card,True,False
+3c8f62ac05780a14de734daa1b8b0826b26963a2,StarTech ST10000SPEX,StarTech,,PCIe x4,,wired-network-card,False,False
+f3b5f30c3316656ffe5542bdfac15ec70cc10fdb,Belkin B2B145-BLK,Belkin,24.74,USB Type-C 3.2 Gen 1,Black,wired-network-card,True,False
+77787bb21aa28bd1ea7941af687dab35e17a1b4b,V7 V7UCRJ45-BLK-1N,V7,,USB Type-C 3.2 Gen 1,Black,wired-network-card,False,False
+e57c42a51401d7750dc28f544d7c8e8c8a34deea,HP E0X95AA,HP,,PCIe x1,Green,wired-network-card,False,False
+0c7dc85f10156e2c13274ffe77d27c336a178731,Syba SD-PEX24065,Syba,,PCIe x1,Green,wired-network-card,False,False
+a9fff01e70600cc53b46e55a1c118c6bdaaa7122,Rosewill RC-20001,Rosewill,,PCIe x1,Black,wired-network-card,False,False
+cdec456876bab15f75e41d78c00200e44a607d03,StarTech USB31000S,StarTech,25.79,USB Type-A 3.2 Gen 1,,wired-network-card,True,False
+24e8a8bd78279c8e44d4a05f4825fd54b73e29de,Intel PWLA8391GT,Intel,43.9,PCI,,wired-network-card,True,False
+294e614b3c21f43c965a727ac4efa72c2a232bd9,Rosewill RC-400,Rosewill,,PCI,,wired-network-card,False,False
+201c959d568fae6734d614f56c1c403e8b5f21cb,Rosewill RC-404,Rosewill,,PCI,,wired-network-card,False,False
+dfa149c504fee3a8ec7a87edef27fd6fc53481c9,Rosewill RNF-405U,Rosewill,,USB Type-A 2.0,,wired-network-card,False,False
+33b8f420699bcd1d69f2b03580aefe75c6792462,Rosewill RNG-406U,Rosewill,,USB Type-A 3.2 Gen 1,,wired-network-card,False,False
+d73877fe31d4ae83c2e535c520e1f39245524889,StarTech ST1000BT32,StarTech,27.98,PCI,,wired-network-card,True,False
+7db91fcefdb55480ed0cf6e2000f000663b12cb1,StarTech ST100S,StarTech,,PCI,,wired-network-card,False,False
+fa5b93d5eaca0b84ef7d1414a819778e0bcf4098,StarTech USB21000S2,StarTech,,USB Type-A 2.0,,wired-network-card,False,False
+7732e8f2cabf68e02320da8bda35e3c77c331fe3,Syba SY-ADA24024,Syba,,USB Type-A 2.0,,wired-network-card,False,False
+d05fb275a9a632443f9f9b06bc22f2400f53fe25,TRENDnet TE100-PCIWN,TRENDnet,,PCI,,wired-network-card,False,False
+88e6b597e23808a7f7f4ec38547ca5fa2d4ab95b,Intel EXPI9402PTBLK-1PK,Intel,,PCIe x4,,wired-network-card,False,False
+f701488999ce77b176788190197a24d926de794f,Intel PWLA8391GTBLK-1PK,Intel,,PCI,,wired-network-card,False,False
+6a1223bc753a464c30b696e28956663e95c22528,Intel PWLA8492MTBLK5,Intel,,PCI-X,,wired-network-card,False,False
+1f052a48d12feb2839081fbf9063f675ca836868,SIIG CN-GP1011-S3,SIIG,,PCI,,wired-network-card,False,False
+1e4d848be960bb14087f7123caf10e66a6eed82d,StarTech ST1000SPEXD2,StarTech,,PCIe x1,,wired-network-card,False,False
+55984622f66622cbf37f50c20f68a379125f6ec4,Syba SY-ADA24005,Syba,,USB Type-A 2.0,,wired-network-card,False,False
+b7baf88f1123c2fc840aac72e45d19a209bd3178,StarTech ST1000SPEX,StarTech,,PCIe x1,,wired-network-card,False,False
+2febbdcb17e2462b1d3a3a1b9ba17dfbaebd4efc,SIIG CN-GP2011-S1,SIIG,,PCIe x1,,wired-network-card,False,False
+c509ea8e513a7b9486225fda45270961c8dd5ebd,SIIG CN-GP1021-S3,SIIG,32.99,PCIe x1,,wired-network-card,True,False
+bf39e8bd102f65c9d929d6f579fbff5a93e65045,Belkin F4U047-RS,Belkin,,USB Type-A 2.0,,wired-network-card,False,False
+64ed0d4f3494f47ac85e1ced30424eff20528ec9,Rosewill RC-401-EX,Rosewill,,PCIe x1,,wired-network-card,False,False
+af3182095d5d71ac6c344ace00995ebf7cd941c2,Rosewill RC-402,Rosewill,,PCI,,wired-network-card,False,False
+903e789bea8b1f18c900f8ede3b594387ddbe7d3,D-Link DFE530TX+,D-Link,11.0,PCI,,wired-network-card,True,False
+2021eea65b98a5dfacc62ce6f10610d3023859ce,D-Link DGE-530T,D-Link,22.99,PCI,,wired-network-card,True,False
+0fd9cc3d0040343c87730fb4b73de1c3257f30c4,D-Link DUB-E100,D-Link,,USB Type-A 2.0,,wired-network-card,False,False
+8b5cc48733c9f779be15aa25ff2d9983a4e5a649,Edimax EU-4208,Edimax,11.99,USB Type-A 2.0,,wired-network-card,True,False
+e4f0b5cbadaa4a28032a9993ad8b0ff00adcd89b,Edimax EU-4306,Edimax,,USB Type-A 3.2 Gen 1,,wired-network-card,False,False
+2214c1bad0e2611f1048114b62808f408244ec54,Rosewill RC-411,Rosewill,,PCIe x1,,wired-network-card,False,False
+9c0869eaabea69e2ea6706872a62e13adb28f939,Rosewill RNG-407-Dual,Rosewill,,PCIe x1,,wired-network-card,False,False
+f0fd6f1107f98fc186afa1570ea8ded714df94c5,SIIG CN-GP4011-S1,SIIG,,PCIe x4,,wired-network-card,False,False
+14125e2ffe5d78e41aa6c327ab3881f7d764ccb0,StarTech ST1000SPEXD3,StarTech,,PCIe x1,,wired-network-card,False,False
+02991a5bb71107630047abb10490e0e7b62b6e43,StarTech USB31000NDS,StarTech,32.99,USB Type-A 3.2 Gen 1,,wired-network-card,True,False
+f8a8fe96e65bc7ec356fffa4238773b098a6bcb1,StarTech USB31000SW,StarTech,21.99,USB Type-A 3.2 Gen 1,,wired-network-card,True,False
+f767f6e895add57cf5af5733c59a8a956d04b91f,Syba SD-ADA24032,Syba,,USB Type-A 3.2 Gen 1,,wired-network-card,False,False
+15728b139c7d03d211b7b4e4840ab54069e89439,Cisco N2XX-ABPCI03-M3=,Cisco,,PCIe x4,,wired-network-card,False,False
+4f7e7f2bd9d6b3c025697c84f55367d52844981e,SIIG JU-NE0511-S1,SIIG,,USB Type-A 3.2 Gen 1,,wired-network-card,False,False
+eb7795a221a5dfa6706a6aff48d28c6c18f760c8,StarTech USB31000SPTB,StarTech,33.99,USB Type-A 3.2 Gen 1,,wired-network-card,True,False
+9c01d79be201db712a688ebc04d261aed228b66f,StarTech USB31000SPTW,StarTech,35.99,USB Type-A 3.2 Gen 1,,wired-network-card,True,False
+9f85fbd5eeb02dbe8e5431aed7805cbe06541e4b,Syba SI-ADA24037,Syba,,USB Type-A 3.2 Gen 1,,wired-network-card,False,False
+68986fb7be0737065cbee97b08e4c91136c964de,SIIG CN-GP1111-S1,SIIG,,PCIe x4,,wired-network-card,False,False
+32a9f93cc366b431dcdd7f876babe406382ec882,Lenovo 4X90E51405,Lenovo,31.54,USB Type-A 3.2 Gen 1,,wired-network-card,True,False
+eaac4f0d2ce505bf0c9a29929292cafba1d674f3,SIIG CN-GP4111-S1,SIIG,,PCIe x4,,wired-network-card,False,False
+d026f923c4bce9468c9aab97c27c62455a0372fa,Syba SY-ADA24040,Syba,,USB Type-A 3.2 Gen 1,,wired-network-card,False,False
+695230847d3403c071b7e9ad22ea58d94a7fce0e,SIIG JU-NE0711-S1,SIIG,,USB Type-A 3.2 Gen 1,Black,wired-network-card,False,False
+471fb99f867331ea5373ed2746b1bc6ec388e063,Linksys USB3GIG,Linksys,,USB Type-A 3.2 Gen 1,Black,wired-network-card,False,False
+0050af4a84751d73a0ef1a147fe85219b22a523a,Syba SY-PEX24056,Syba,,PCIe x4,Green / Black,wired-network-card,False,False
+0f627180adc2d6e7717be8c1445765a980d7f003,Rosewill RNG-408U,Rosewill,,USB Type-C 3.2 Gen 1,Black,wired-network-card,False,False
+16d77b2265884cb2a5f6b4fe8a04770593f08c1b,Tripp Lite U436-000-GB,Tripp Lite,25.8,USB Type-C 3.2 Gen 1,Black,wired-network-card,True,False
+bd2cad5da538e600802c8890f88fd56aa0a7bc3e,SIIG JU-NE0621-S2,SIIG,,USB Type-A 3.2 Gen 1,White,wired-network-card,False,False
+3b8459f3fe37902f9a5987027170c33a7a3b5721,SIIG LB-GE0611-S1,SIIG,49.99,PCIe x1,Green / Black,wired-network-card,True,False
