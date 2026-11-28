@@ -3,8 +3,8 @@
 import numpy as np
 import pandas as pd
 from pathlib import Path
-from src.load import carregar_categoria
-from src.common import (
+from src.limpeza.load import carregar_categoria
+from src.limpeza.common import (
     remover_duplicatas,
     gerar_id,
     extrair_marca,
@@ -12,12 +12,10 @@ from src.common import (
     calcular_outlier_preco,
     normalizar_numericos,
 )
-from src.categories import tratar_memory
+from src.limpeza.categories import tratar_memory
 
 
-CAMINHO_RAW = Path("data/raw/data/json")
-if not CAMINHO_RAW.exists():
-    CAMINHO_RAW = Path("pc_parts_cleaning/data/raw/data/json")
+CAMINHO_RAW = Path("data/raw")
 
 
 def processar_memory_completo():

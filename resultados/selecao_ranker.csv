@@ -1,0 +1,27 @@
+config,variaveis,hiper,mmr,nDCG@10 val. temporal
+LambdaMART,sem popularidade,medio,0.0,0.9684
+LambdaMART,sem neural,medio,0.0,0.9656
+LambdaMART,sem popularidade,medio,0.3,0.965
+LambdaMART,todas,medio,0.0,0.964
+LambdaMART,sem neural,medio,0.3,0.9637
+LambdaMART,sem lexical,medio,0.0,0.9635
+LambdaMART,todas,medio,0.3,0.963
+LambdaMART,sem relacionais,medio,0.0,0.9618
+LambdaMART,sem lexical,medio,0.3,0.9617
+LambdaMART,sem popularidade,leve,0.0,0.9612
+LambdaMART,sem lexical,leve,0.0,0.9608
+LambdaMART,sem relacionais,medio,0.3,0.96
+LambdaMART,todas,leve,0.0,0.96
+LambdaMART,sem popularidade,leve,0.3,0.9582
+LambdaMART,sem lexical,leve,0.3,0.9582
+LambdaMART,todas,leve,0.3,0.9578
+LambdaMART,sem neural,leve,0.0,0.9572
+LambdaMART,sem neural,leve,0.3,0.9539
+LambdaMART,sem relacionais,leve,0.0,0.9481
+LambdaMART,sem relacionais,leve,0.3,0.9479
+LambdaMART,sem preco,leve,0.3,0.8903
+LambdaMART,sem preco,leve,0.0,0.8892
+LambdaMART,sem preco,medio,0.3,0.8795
+LambdaMART,sem preco,medio,0.0,0.8785
+RRF (sem ranker),-,-,0.3,0.87
+RRF (sem ranker),-,-,0.0,0.8687

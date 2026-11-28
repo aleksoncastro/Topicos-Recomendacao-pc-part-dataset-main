@@ -2,9 +2,9 @@
 
 from pathlib import Path
 import pandas as pd
-from src.main import resolver_diretorio_input
-from src.load import carregar_todas_categorias
-from src.common import (
+from src.limpeza.main import resolver_diretorio_input
+from src.limpeza.load import carregar_todas_categorias
+from src.limpeza.common import (
     remover_duplicatas,
     gerar_id,
     extrair_marca,
@@ -15,7 +15,7 @@ from src.common import (
 
 def test_ids_unicos_dentro_de_cada_categoria():
     """Valida se a coluna 'id' gerada é estritamente única dentro de cada categoria."""
-    dir_input = resolver_diretorio_input("data/raw/data/json")
+    dir_input = resolver_diretorio_input("data/raw")
     dfs = carregar_todas_categorias(dir_input)
 
     for cat, df in dfs.items():
@@ -26,7 +26,7 @@ def test_ids_unicos_dentro_de_cada_categoria():
 
 def test_nenhum_preco_imputado_em_todas_categorias():
     """Garante que a contagem de preços não nulos não aumenta após o pré-processamento."""
-    dir_input = resolver_diretorio_input("data/raw/data/json")
+    dir_input = resolver_diretorio_input("data/raw")
     dfs = carregar_todas_categorias(dir_input)
 
     for cat, df in dfs.items():

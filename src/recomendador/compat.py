@@ -16,6 +16,11 @@ from .dados import potencia_recomendada
 TOL_FAIXA = 0.25
 
 
+def _aceita_socket(sockets_placa: pd.Series, socket_cpu) -> np.ndarray:
+    """Placas como "AM3/AM2+/AM2" aceitam mais de um socket."""
+    return sockets_placa.fillna("").str.split("/").map(lambda l: socket_cpu in l).to_numpy()
+
+
 def mascara_compativel(alvo: str, df: pd.DataFrame, montagem: dict[str, pd.Series]) -> np.ndarray:
     ok = np.ones(len(df), dtype=bool)
     cpu = montagem.get("cpu")
@@ -26,11 +31,11 @@ def mascara_compativel(alvo: str, df: pd.DataFrame, montagem: dict[str, pd.Serie
     psu = montagem.get("power-supply")
 
     if alvo == "cpu" and mb is not None:
-        ok &= (df["socket"] == mb["socket"]).to_numpy()
+        ok &= df["socket"].isin(str(mb["socket"]).split("/")).to_numpy()
 
     if alvo == "motherboard":
         if cpu is not None:
-            ok &= (df["socket"] == cpu["socket"]).to_numpy()
+            ok &= _aceita_socket(df["socket"], cpu["socket"])
             if not pd.isna(cpu.get("ddr")):
                 ok &= (df["ddr"] == cpu["ddr"]).to_numpy()
         if gab is not None:

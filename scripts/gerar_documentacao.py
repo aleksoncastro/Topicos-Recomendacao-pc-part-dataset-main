@@ -1,4 +1,4 @@
-"""Gera docs/Plano_e_Progresso.pdf — documentação do plano e do que já foi feito."""
+"""Uso: python scripts/gerar_documentacao.py — gera docs/Plano_e_Progresso.pdf — documentação do plano e do que já foi feito."""
 from pathlib import Path
 
 from reportlab.graphics.shapes import Drawing, Line, Polygon, Rect, String
@@ -12,9 +12,9 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import (Image, KeepTogether, PageBreak, Paragraph, SimpleDocTemplate,
                                 Spacer, Table, TableStyle)
 
-AQUI = Path(__file__).resolve().parent
-RES = AQUI.parent / "resultados"
-SAIDA = AQUI / "Plano_e_Progresso.pdf"
+RAIZ = Path(__file__).resolve().parents[1]
+RES = RAIZ / "resultados"
+SAIDA = RAIZ / "docs" / "Plano_e_Progresso.pdf"
 
 F = "C:/Windows/Fonts/"
 pdfmetrics.registerFont(TTFont("Arial", F + "arial.ttf"))

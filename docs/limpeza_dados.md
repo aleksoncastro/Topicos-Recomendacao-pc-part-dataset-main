@@ -7,7 +7,7 @@ Projeto Python para limpeza, padronização, auditoria e pré-processamento do *
 ## 1. Visão Geral
 
 O dataset original é composto por 25 arquivos JSON (um por categoria de hardware), totalizando **66.778 registros brutos**. O pipeline realiza:
-- Leitura e preservação integral dos arquivos originais em `data/raw/data/json/` (somente leitura).
+- Leitura e preservação integral dos arquivos originais em `data/raw/` (somente leitura).
 - Deduplicação exata (removendo **2.951 duplicatas**, resultando em **63.827 registros finais**).
 - Geração de identificador único (`id`) determinístico via hash SHA-1 de cada registro.
 - Extração padronizada de `marca`, com suporte a marcas compostas.
@@ -18,69 +18,37 @@ O dataset original é composto por 25 arquivos JSON (um por categoria de hardwar
 
 ---
 
-## 2. Estrutura do Projeto
+## 2. Onde fica no projeto
 
 ```text
-pc_parts_cleaning/
-├── data/
-│   ├── raw/
-│   │   └── data/json/       # 25 arquivos JSON originais (somente leitura)
-│   └── processed/           # Saídas geradas (.parquet, .csv, resumo_limpeza.csv)
-├── src/
-│   ├── __init__.py
-│   ├── load.py              # Leitura dos JSONs brutos
-│   ├── common.py            # Etapas comuns (dedup, hash id, marca, outliers, etc.)
-│   ├── categories.py        # Transformações específicas de cada categoria
-│   ├── report.py            # Relatório consolidado, métricas e auditoria
-│   └── main.py              # Ponto de entrada CLI (argparse)
-├── tests/
-│   ├── __init__.py
-│   ├── test_common.py       # Validações de ID único, marcas, outliers e preços
-│   ├── test_integration.py  # Validações de totais globais (66.778 e 2.951)
-│   ├── test_internal_hdd.py # Validações de tipos em internal-hard-drive
-│   ├── test_memory.py       # Validações de ponta a ponta de memory
-│   ├── test_monitor.py      # Validações de resolução e megapixels
-│   ├── test_cpu_cooler_and_fan.py # Validações de faixas min/max e ausência de listas
-│   └── test_other_categories.py   # Validações de cpu, power-supply, áudio e webcam
-├── requirements.txt         # Dependências do projeto
-└── README.md                # Instruções e documentação técnica
+data/raw/              # 25 arquivos JSON originais (somente leitura)
+data/processed/        # Saídas geradas (.parquet, .csv, resumo_limpeza.csv)
+src/limpeza/
+├── load.py            # Leitura dos JSONs brutos
+├── common.py          # Etapas comuns (dedup, hash id, marca, outliers, etc.)
+├── categories.py      # Transformações específicas de cada categoria
+├── report.py          # Relatório consolidado, métricas e auditoria
+└── main.py            # Ponto de entrada CLI (argparse)
+tests/                 # Testes pytest (totais, IDs, marcas, outliers, categorias)
+notebooks/01_limpeza_dataset.ipynb   # Notebook consolidado da limpeza
 ```
 
 ---
 
-## 3. Instalação e Ambiente Virtual
+## 3. Ambiente
 
-Requisitos: **Python 3.11+**.
-
-```bash
-# Navegar até a pasta do projeto
-cd pc_parts_cleaning
-
-# Criar o ambiente virtual (.venv)
-python -m venv .venv
-
-# Ativar o ambiente virtual:
-# No Windows (PowerShell):
-.\.venv\Scripts\Activate.ps1
-# No Linux/macOS:
-source .venv/bin/activate
-
-# Instalar dependências
-pip install -r requirements.txt
-```
+Use o ambiente único da raiz do projeto (ver `README.md` na raiz): `requirements.txt` + `.venv` (Python 3.12).
 
 ---
 
-## 4. Como Executar o Pipeline
-
-Para executar o processamento completo de todas as 25 categorias:
+## 4. Como Executar o Pipeline (a partir da raiz)
 
 ```bash
-# Execução padrão (utiliza caminhos default: data/raw/data/json e data/processed)
-python -m src.main
+# Execução padrão (data/raw -> data/processed)
+.venv\Scripts\python -m src.limpeza.main
 
 # Execução com parâmetros customizados
-python -m src.main --input data/raw/data/json --output data/processed
+.venv\Scripts\python -m src.limpeza.main --input data/raw --output data/processed
 ```
 
 Durante a execução, um log no terminal informa o progresso de cada categoria, os totais consolidados e a lista de marcas raras (< 3 ocorrências no dataset) para revisão.
@@ -92,14 +60,14 @@ Durante a execução, um log no terminal informa o progresso de cada categoria, 
 Para rodar todos os testes automatizados com o `pytest`:
 
 ```bash
-pytest -v
+.venv\Scripts\python -m pytest -v
 ```
 
 Para rodar testes de uma categoria ou módulo específico:
 
 ```bash
-pytest tests/test_memory.py -v
-pytest tests/test_integration.py -v
+python -m pytest tests/test_memory.py -v
+python -m pytest tests/test_integration.py -v
 ```
 
 ---

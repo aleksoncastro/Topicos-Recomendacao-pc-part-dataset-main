@@ -1,0 +1,5 @@
+,média (ms),p95 (ms)
+embedding da consulta,29.77,39.88
+busca (ANN filtrada + BM25 + RRF),14.36,32.19
+ranking (variáveis + LambdaMART + MMR),5.39,6.78
+total,49.52,72.22

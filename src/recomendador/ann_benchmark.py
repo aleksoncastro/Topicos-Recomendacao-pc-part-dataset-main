@@ -4,7 +4,7 @@
 2) Teste de escala: catálogo sintético de 500 mil vetores (itens reais + ruído),
    para mostrar quando o ANN passa a compensar.
 
-Uso:  python -m src.ann_benchmark
+Uso:  python -m src.recomendador.ann_benchmark
 """
 from __future__ import annotations
 
@@ -18,11 +18,12 @@ import numpy as np
 import pandas as pd
 
 from . import embeddings as E
-from .avaliacao import RES, gerar_consultas
-from .dados import carregar_catalogo, carregar_catalogo_completo
+from .consultas import gerar_consultas
+from .dados import RAIZ, carregar_catalogo, carregar_catalogo_completo
 from .textos import texto_consulta, texto_generico
 
 K = 10
+RES = RAIZ / "resultados"
 faiss.omp_set_num_threads(1)  # latência por consulta, comparação justa
 
 
@@ -84,7 +85,7 @@ def grafico(df, arq, titulo):
 
 def main():
     RES.mkdir(exist_ok=True)
-    nome_m = E.nome_modelo(E.MODELO_AJUSTADO.exists())
+    nome_m = E.nome_modelo("v2" if E.caminho_modelo("v2").exists() else "base")
     print("Modelo:", nome_m)
     todo = carregar_catalogo_completo()
     x = E.embed([texto_generico(r) for _, r in todo.iterrows()], "catalogo_completo",

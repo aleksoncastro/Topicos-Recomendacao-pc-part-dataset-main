@@ -11,8 +11,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-RAIZ = Path(__file__).resolve().parents[1]
-DADOS = RAIZ.parent / "pc_parts_cleaning" / "data" / "processed"
+RAIZ = Path(__file__).resolve().parents[2]  # raiz do projeto
+DADOS = RAIZ / "data" / "processed"
 
 # Categorias que formam uma montagem
 CATEGORIAS_MONTAGEM = [
@@ -82,7 +82,7 @@ _DDR_POR_SOCKET = {
 def ddr_placa(socket: str | None, nome: str) -> float:
     if socket == "LGA1700":
         return 4.0 if re.search(r"DDR4|/D4\b|\bD4\b", nome) else 5.0
-    v = _DDR_POR_SOCKET.get(socket or "")
+    v = _DDR_POR_SOCKET.get(str(socket or "").split("/")[0])
     return float(v) if v else np.nan
 
 
@@ -179,6 +179,8 @@ def carregar_categoria(cat: str, somente_com_preco: bool = True) -> pd.DataFrame
     if cat == "cpu":
         df["socket"] = [socket_cpu(n, a) for n, a in zip(df["name"], df["microarchitecture"])]
         df["ddr"] = [ddr_placa(s, "") if s != "LGA1700" else np.nan for s in df["socket"]]
+        # faixa da CPU dentro da própria plataforma (0 = mais barata do socket, 1 = mais cara)
+        df["pct_plataforma"] = df.groupby("socket")["price"].rank(pct=True)
     elif cat == "motherboard":
         df["ddr"] = [ddr_placa(s, n) for s, n in zip(df["socket"], df["name"])]
         df["tam_placa"] = df["form_factor"].map(tamanho_placa)

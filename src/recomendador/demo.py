@@ -1,16 +1,16 @@
 """Demonstração: escolha uma CPU e o sistema monta o resto do PC.
 
 Uso:
-    python demo.py "Ryzen 5 5600"
-    python demo.py "Core i5-14600K" --n 3
-    python demo.py --busca "processador AMD barato para jogos"
+    python -m src.recomendador.demo "Ryzen 5 5600"
+    python -m src.recomendador.demo "Core i5-14600K" --n 3
+    python -m src.recomendador.demo --busca "processador AMD barato para jogos"
 """
 import argparse
 import sys
 import time
 
-from src.dados import NOME_PT
-from src.recomendador import Recomendador
+from .dados import NOME_PT
+from .recomendador import Recomendador
 
 sys.stdout.reconfigure(encoding="utf-8")
 
@@ -38,6 +38,7 @@ def main():
     cpu = rec.encontrar("cpu", a.cpu)
     print(f"\nCPU escolhida: {cpu['name']} | {cpu['microarchitecture']} | socket {cpu['socket']} "
           f"| {cpu['tdp']:.0f} W | {preco(cpu['price'])}")
+    rec.recomendar("motherboard", {"cpu": cpu}, 1)  # aquece o modelo (1ª carga não entra no tempo)
     t = time.perf_counter()
     montagem, passos = rec.montar(cpu, n=a.n)
     dt = (time.perf_counter() - t) * 1000

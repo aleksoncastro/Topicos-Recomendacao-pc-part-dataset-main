@@ -4,8 +4,8 @@ import argparse
 from pathlib import Path
 import pandas as pd
 
-from src.load import carregar_categoria
-from src.common import (
+from src.limpeza.load import carregar_categoria
+from src.limpeza.common import (
     remover_duplicatas,
     gerar_id,
     extrair_marca,
@@ -13,8 +13,8 @@ from src.common import (
     calcular_outlier_preco,
     normalizar_numericos,
 )
-from src.categories import aplicar_regras_categoria
-from src.report import (
+from src.limpeza.categories import aplicar_regras_categoria
+from src.limpeza.report import (
     gerar_resumo_limpeza,
     salvar_resumo,
     identificar_marcas_raras,
@@ -32,8 +32,6 @@ def resolver_diretorio_input(caminho_input: Path | str) -> Path:
     candidatos = [
         caminho / "data" / "json",
         caminho / "json",
-        Path("pc_parts_cleaning") / caminho,
-        Path("pc_parts_cleaning") / "data" / "raw" / "data" / "json",
     ]
     for cand in candidatos:
         if cand.exists() and list(cand.glob("*.json")):
@@ -169,7 +167,7 @@ def main() -> None:
     parser.add_argument(
         "--input",
         type=str,
-        default="data/raw/data/json",
+        default="data/raw",
         help="Caminho para o diretório contendo os arquivos .json originais.",
     )
     parser.add_argument(

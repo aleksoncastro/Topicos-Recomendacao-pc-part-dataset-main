@@ -1,9 +1,15 @@
 metodo,nDCG@10,MRR,Compat@10,Diversidade@10,Itens na lista
-Neural (texto bruto) + filtro,0.61,0.59,1.0,0.316,10.0
-Popularidade + filtro,0.626,0.567,1.0,0.424,10.0
-"Ablação: Neural + filtro, sem ranking",0.638,0.658,1.0,0.33,9.797
-Neural (texto enriquecido) + filtro,0.647,0.66,1.0,0.331,10.0
-BM25 + filtro,0.73,0.753,1.0,0.349,10.0
-Palavra-chave + filtro,0.8,0.783,1.0,0.385,10.0
-Ablação: ranking sem similaridade neural,0.856,0.861,1.0,0.444,9.797
-Sistema: Neural + ranking,0.856,0.861,1.0,0.444,9.797
+Neural pré-treinado (texto bruto) + filtro,0.603,0.573,1.0,0.324,10.0
+Popularidade + filtro,0.629,0.57,1.0,0.422,10.0
+Neural pré-treinado + filtro,0.643,0.651,1.0,0.326,10.0
+BM25 + filtro,0.733,0.758,1.0,0.351,10.0
+Ablação: sem variáveis de preço,0.8,0.769,1.0,0.685,10.0
+Palavra-chave + filtro,0.803,0.789,1.0,0.379,10.0
+Neural ajustado v1 + filtro,0.831,0.794,1.0,0.406,10.0
+Neural ajustado v2 + filtro,0.832,0.842,1.0,0.423,10.0
+"Ablação: RRF sem ranker, com MMR",0.833,0.83,1.0,0.567,10.0
+"Híbrido filtrado (RRF), sem ranker",0.835,0.831,1.0,0.437,10.0
+Ablação: sem variáveis relacionais,0.943,0.953,1.0,0.69,10.0
+Ablação: sem variáveis neurais,0.95,0.953,1.0,0.681,10.0
+Sistema: híbrido filtrado + LambdaMART + MMR,0.96,0.981,1.0,0.689,10.0
+Ablação: LambdaMART sem MMR,0.962,0.98,1.0,0.509,10.0

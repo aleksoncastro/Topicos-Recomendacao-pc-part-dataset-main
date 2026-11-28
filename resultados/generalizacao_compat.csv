@@ -1,0 +1,9 @@
+metodo,validação (plataformas do treino),teste (plataformas novas),queda
+BM25,0.675,0.615,0.059
+"Híbrido (BM25 + neural v2, RRF)",0.886,0.928,-0.042
+Neural ajustado v1,0.737,0.558,0.179
+Neural ajustado v2,0.906,0.968,-0.062
+Neural pré-treinado,0.47,0.64,-0.17
+Neural pré-treinado (texto bruto),0.486,0.447,0.039
+Palavra-chave,0.826,0.929,-0.102
+Popularidade,0.504,0.669,-0.165

@@ -1,0 +1,21 @@
+# Limpeza
+pandas>=2.1
+numpy>=1.26
+pyarrow>=14
+# Recomendador
+scikit-learn
+faiss-cpu
+sentence-transformers
+datasets
+accelerate
+rank-bm25
+lightgbm
+# Resultados e documentação
+matplotlib
+reportlab
+pypdfium2
+# Notebooks e testes
+ipykernel
+nbformat
+nbclient
+pytest

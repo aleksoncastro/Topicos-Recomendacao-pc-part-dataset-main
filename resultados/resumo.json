@@ -1,16 +1,56 @@
 {
-  "n_consultas": 1044,
-  "pesos": {
-    "sim": 0,
-    "pop": 0,
-    "coer": 4,
-    "outlier": 0.5,
-    "mmr": 0
+  "consultas": {
+    "ajuste": 1046,
+    "validacao": 459,
+    "teste": 344
   },
-  "melhor_baseline_teste": "Palavra-chave + filtro",
-  "delta_ndcg_teste": 0.056211485869406386,
-  "ic95": [
-    0.03327415491729739,
-    0.08007265125555209
-  ]
+  "ranker": {
+    "variaveis": "sem popularidade",
+    "hiper": "medio"
+  },
+  "comparacoes": {
+    "Palavra-chave + filtro": [
+      0.15695323386788565,
+      0.1337493249179086,
+      0.18248093629441955
+    ],
+    "BM25 + filtro": [
+      0.22669887735807628,
+      0.2063345806737384,
+      0.24816898355442268
+    ],
+    "Neural ajustado v2 + filtro": [
+      0.12784725552867848,
+      0.10764674378489568,
+      0.1481429591845255
+    ],
+    "Híbrido filtrado (RRF), sem ranker": [
+      0.1250943741178678,
+      0.10583321602932788,
+      0.14528404745434317
+    ],
+    "Ablação: sem variáveis neurais": [
+      0.009221947034576827,
+      0.0024892155581274175,
+      0.01649619606603054
+    ],
+    "Ablação: sem variáveis de preço": [
+      0.15975809859379145,
+      0.1387603106426105,
+      0.18078275396832016
+    ],
+    "Ablação: sem variáveis relacionais": [
+      0.017215543035165648,
+      0.009308931187190736,
+      0.02540744477018398
+    ]
+  },
+  "ndcg_sistema_teste": 0.9597185136965757,
+  "importancia_grupos": {
+    "preco": 0.7522,
+    "relacionais": 0.1471,
+    "neural": 0.0734,
+    "lexical": 0.0225,
+    "categoria": 0.0049
+  }
 }

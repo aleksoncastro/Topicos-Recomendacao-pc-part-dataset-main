@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 import hashlib
-from pathlib import Path
 
 import faiss
 import numpy as np
@@ -10,13 +9,20 @@ import numpy as np
 from .dados import RAIZ
 
 MODELO_BASE = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
-MODELO_AJUSTADO = RAIZ / "modelos" / "minilm-pc-compat"
 CACHE = RAIZ / "cache"
 _modelos: dict = {}
 
 
-def nome_modelo(ajustado: bool) -> str:
-    return str(MODELO_AJUSTADO) if ajustado else MODELO_BASE
+def caminho_modelo(versao: str):
+    """Modelo ajustado por fine-tuning: 'v1' (receita simples) ou 'v2' (anonimização)."""
+    return RAIZ / "modelos" / f"minilm-pc-compat-{versao}"
+
+
+def nome_modelo(versao: str | None) -> str:
+    """None/'base' = modelo pré-treinado; 'v1'/'v2' = modelos ajustados."""
+    if versao in (None, "base"):
+        return MODELO_BASE
+    return str(caminho_modelo(versao))
 
 
 def modelo(nome: str = MODELO_BASE):

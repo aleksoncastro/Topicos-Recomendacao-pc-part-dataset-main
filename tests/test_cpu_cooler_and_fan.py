@@ -1,15 +1,15 @@
 """Testes para as categorias cpu-cooler e case-fan."""
 
 from pathlib import Path
-from src.main import resolver_diretorio_input
-from src.load import carregar_categoria
-from src.common import remover_duplicatas, gerar_id, extrair_marca, adicionar_tem_preco, calcular_outlier_preco, normalizar_numericos
-from src.categories import tratar_cpu_cooler, tratar_case_fan
+from src.limpeza.main import resolver_diretorio_input
+from src.limpeza.load import carregar_categoria
+from src.limpeza.common import remover_duplicatas, gerar_id, extrair_marca, adicionar_tem_preco, calcular_outlier_preco, normalizar_numericos
+from src.limpeza.categories import tratar_cpu_cooler, tratar_case_fan
 
 
 def test_cpu_cooler_sem_listas_e_faixas_min_max():
     """Valida ausência de listas e criação de min/max em cpu-cooler."""
-    dir_input = resolver_diretorio_input("data/raw/data/json")
+    dir_input = resolver_diretorio_input("data/raw")
     df_raw = carregar_categoria(dir_input / "cpu-cooler.json")
     df_dedup, _ = remover_duplicatas(df_raw)
     df_id = gerar_id(df_dedup)
@@ -36,7 +36,7 @@ def test_cpu_cooler_sem_listas_e_faixas_min_max():
 
 def test_case_fan_sem_listas_e_faixas_min_max():
     """Valida ausência de listas e criação de min/max em case-fan."""
-    dir_input = resolver_diretorio_input("data/raw/data/json")
+    dir_input = resolver_diretorio_input("data/raw")
     df_raw = carregar_categoria(dir_input / "case-fan.json")
     df_dedup, _ = remover_duplicatas(df_raw)
     df_id = gerar_id(df_dedup)

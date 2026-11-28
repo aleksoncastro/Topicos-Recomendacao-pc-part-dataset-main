@@ -2,15 +2,15 @@
 
 from pathlib import Path
 import pandas as pd
-from src.main import resolver_diretorio_input
-from src.load import carregar_categoria
-from src.common import remover_duplicatas, gerar_id, extrair_marca, adicionar_tem_preco, calcular_outlier_preco, normalizar_numericos
-from src.categories import tratar_monitor
+from src.limpeza.main import resolver_diretorio_input
+from src.limpeza.load import carregar_categoria
+from src.limpeza.common import remover_duplicatas, gerar_id, extrair_marca, adicionar_tem_preco, calcular_outlier_preco, normalizar_numericos
+from src.limpeza.categories import tratar_monitor
 
 
 def test_monitor_resolucao_e_megapixels():
     """Valida separação de resolução em largura, altura e megapixels sem listas restantes."""
-    dir_input = resolver_diretorio_input("data/raw/data/json")
+    dir_input = resolver_diretorio_input("data/raw")
     df_raw = carregar_categoria(dir_input / "monitor.json")
     df_dedup, _ = remover_duplicatas(df_raw)
     df_id = gerar_id(df_dedup)

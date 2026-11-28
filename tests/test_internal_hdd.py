@@ -2,14 +2,14 @@
 
 import pandas as pd
 from pathlib import Path
-from src.main import resolver_diretorio_input
-from src.load import carregar_categoria
-from src.common import remover_duplicatas, gerar_id, extrair_marca, adicionar_tem_preco, calcular_outlier_preco, normalizar_numericos
-from src.categories import tratar_internal_hard_drive
+from src.limpeza.main import resolver_diretorio_input
+from src.limpeza.load import carregar_categoria
+from src.limpeza.common import remover_duplicatas, gerar_id, extrair_marca, adicionar_tem_preco, calcular_outlier_preco, normalizar_numericos
+from src.limpeza.categories import tratar_internal_hard_drive
 
 
 def processar_ihd():
-    dir_input = resolver_diretorio_input("data/raw/data/json")
+    dir_input = resolver_diretorio_input("data/raw")
     df_raw = carregar_categoria(dir_input / "internal-hard-drive.json")
     df_dedup, _ = remover_duplicatas(df_raw)
     df_id = gerar_id(df_dedup)

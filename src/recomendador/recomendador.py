@@ -1,23 +1,28 @@
 """Recomendador de peças compatíveis em duas etapas.
 
-Etapa 1 — geração de candidatos (neural): a montagem atual vira texto -> embedding,
-          e a busca ANN (HNSW) traz os K itens mais próximos da categoria pedida.
-Etapa 2 — ranqueamento: filtro de compatibilidade (restrição do negócio) +
-          combinação de similaridade, popularidade e coerência de preço +
-          diversidade de marcas (MMR).
+Etapa 1 — candidatos (velocidade e cobertura):
+    montagem atual -> texto -> embedding (modelo ajustado v2)
+    busca densa FILTRADA por compatibilidade (FAISS HNSW + seletor de IDs)
+    + busca lexical BM25 no mesmo subconjunto
+    -> fusão híbrida RRF -> top-100 candidatos
+Etapa 2 — ranqueamento (ordem final):
+    variáveis relacionais + neurais + lexicais + preço + popularidade
+    -> LightGBM LambdaMART -> diversidade de marcas (MMR) -> top-N
 """
 from __future__ import annotations
 
-import json
 import re
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 import numpy as np
 import pandas as pd
 
 from . import embeddings as E
+from . import ranking as R
+from .baselines import Lexical
 from .compat import mascara_compativel
-from .dados import CATEGORIAS_MONTAGEM, RAIZ, carregar_catalogo
+from .dados import CATEGORIAS_MONTAGEM, carregar_catalogo
+from .recuperacao import busca_densa_filtrada, hibrido
 from .textos import texto_consulta, textos
 
 ORDEM_MONTAGEM = ["motherboard", "memory", "video-card", "cpu-cooler",
@@ -25,97 +30,67 @@ ORDEM_MONTAGEM = ["motherboard", "memory", "video-card", "cpu-cooler",
 
 
 @dataclass
-class Pesos:
-    sim: float = 1.0
-    pop: float = 0.5
-    coer: float = 1.0
-    outlier: float = 0.5
-    mmr: float = 0.3
-
-
-def ancora(montagem: dict[str, pd.Series]) -> pd.Series:
-    return montagem.get("cpu", next(iter(montagem.values())))
-
-
-def features(df: pd.DataFrame, cand: np.ndarray, sims: np.ndarray, anc: pd.Series) -> dict:
-    sub = df.iloc[cand]
-    z = (sims - sims.mean()) / (sims.std() + 1e-9)
-    return {
-        "sim": z,
-        "pop": 1.0 - sub["pop_rank"].to_numpy(),
-        "coer": 1.0 - np.abs(sub["preco_pct"].to_numpy() - anc["preco_pct"]),
-        "outlier": sub["outlier_preco"].to_numpy().astype(float),
-        "marca": sub["marca"].to_numpy(),
-    }
-
-
-def ordenar(f: dict, p: Pesos, n: int, valido: np.ndarray | None = None) -> np.ndarray:
-    """Devolve as posições (dentro dos candidatos) na ordem final, com MMR por marca."""
-    s = p.sim * f["sim"] + p.pop * f["pop"] + p.coer * f["coer"] - p.outlier * f["outlier"]
-    if valido is not None:
-        s = np.where(valido, s, -np.inf)
-    escolhidos: list[int] = []
-    cont: dict[str, int] = {}
-    restantes = np.argsort(-s)[: max(n * 5, 50)]
-    restantes = [i for i in restantes if np.isfinite(s[i])]
-    while restantes and len(escolhidos) < n:
-        ajust = [s[i] - p.mmr * cont.get(f["marca"][i], 0) for i in restantes]
-        j = restantes.pop(int(np.argmax(ajust)))
-        escolhidos.append(j)
-        cont[f["marca"][j]] = cont.get(f["marca"][j], 0) + 1
-    return np.array(escolhidos, dtype=int)
-
-
-@dataclass
 class Recomendador:
-    variante: str = "enriquecido"
-    tipo_indice: str = "hnsw"
+    versao_modelo: str = "v2"      # "base", "v1" ou "v2"
     k_candidatos: int = 100
-    ajustado: bool = True          # usa o modelo com fine-tuning, se existir
-    pesos: Pesos | None = None     # None = carrega resultados/pesos.json (ajustados no treino)
+    mmr: float = 0.3
+    usar_ranker: bool = True
 
     def __post_init__(self):
-        if self.ajustado and not E.MODELO_AJUSTADO.exists():
-            print("Aviso: modelo ajustado não encontrado; usando o modelo base.")
-            self.ajustado = False
-        self.modelo_nome = E.nome_modelo(self.ajustado)
-        if self.pesos is None:
-            arq = RAIZ / "resultados" / "pesos.json"
-            self.pesos = Pesos(**json.loads(arq.read_text())) if arq.exists() else Pesos()
+        if self.versao_modelo != "base" and not E.caminho_modelo(self.versao_modelo).exists():
+            print(f"Aviso: modelo {self.versao_modelo} não encontrado; usando o modelo base.")
+            self.versao_modelo = "base"
+        self.modelo_nome = E.nome_modelo(self.versao_modelo)
         self.cat = carregar_catalogo()
-        self.vetores, self.indices, self.exatos = {}, {}, {}
-        sufixo = "ft" if self.ajustado else "base"
+        self.textos = {c: textos(c, self.cat[c], "enriquecido") for c in CATEGORIAS_MONTAGEM}
+        self.vetores, self.indices = {}, {}
         for c in CATEGORIAS_MONTAGEM:
-            v = E.embed(textos(c, self.cat[c], self.variante), f"{c}_{self.variante}_{sufixo}",
+            v = E.embed(self.textos[c], f"{c}_enriquecido_{self.versao_modelo}",
                         modelo_nome=self.modelo_nome)
             self.vetores[c] = v
-            self.exatos[c] = E.indice_exato(v)
-            self.indices[c] = E.indice_hnsw(v) if self.tipo_indice == "hnsw" else self.exatos[c]
+            self.indices[c] = E.indice_hnsw(v)
+        self.lex = Lexical(self.textos)
+        self.ranker = R.carregar() if self.usar_ranker else None
 
     # ---------------- etapa 1 ----------------
-    def vetor_consulta(self, alvo: str, montagem: dict[str, pd.Series]) -> np.ndarray:
-        return E.embed([texto_consulta(alvo, montagem, self.variante)], modelo_nome=self.modelo_nome)
+    def vetor_consulta(self, alvo: str, montagem: dict) -> np.ndarray:
+        return E.embed([texto_consulta(alvo, montagem)], modelo_nome=self.modelo_nome)
 
-    def candidatos(self, alvo: str, montagem: dict[str, pd.Series], k: int | None = None,
-                   exato: bool = False):
-        k = min(k or self.k_candidatos, len(self.cat[alvo]))
-        idx = self.exatos[alvo] if exato else self.indices[alvo]
-        sims, ids = idx.search(self.vetor_consulta(alvo, montagem), k)
-        ok = ids[0] >= 0
-        return ids[0][ok], sims[0][ok]
+    def candidatos(self, alvo: str, montagem: dict, filtrar: bool = True) -> dict:
+        df = self.cat[alvo]
+        valido = mascara_compativel(alvo, df, montagem) if filtrar else np.ones(len(df), bool)
+        q = self.vetor_consulta(alvo, montagem)
+        # densa filtrada (ANN) -> scores exatos dos itens recuperados
+        ids_ann = busca_densa_filtrada(self.indices[alvo], self.vetores[alvo], q, valido,
+                                       2 * self.k_candidatos)
+        s_denso = np.full(len(df), -np.inf)
+        s_denso[ids_ann] = self.vetores[alvo][ids_ann] @ q[0]
+        s_bm25 = self.lex.bm25_scores(alvo, texto_consulta(alvo, montagem))
+        cand, r_d, r_b, f = hibrido(s_denso, s_bm25, valido, self.k_candidatos)
+        s_denso_full = self.vetores[alvo] @ q[0]  # para as variáveis do ranker
+        return {"cand": cand, "s_denso": s_denso_full, "s_bm25": s_bm25,
+                "r_denso": r_d, "r_bm25": r_b, "rrf": f, "valido": valido}
 
     # ---------------- etapa 2 ----------------
-    def recomendar(self, alvo: str, montagem: dict[str, pd.Series], n: int = 10,
-                   filtrar: bool = True) -> pd.DataFrame:
-        df = self.cat[alvo]
-        cand, sims = self.candidatos(alvo, montagem)
-        valido = mascara_compativel(alvo, df, montagem)[cand] if filtrar else None
-        f = features(df, cand, sims, ancora(montagem))
-        ordem = ordenar(f, self.pesos, n, valido)
-        out = df.iloc[cand[ordem]].copy()
-        out["similaridade"] = sims[ordem]
+    def pontuar(self, alvo: str, montagem: dict, c: dict) -> tuple[np.ndarray, pd.DataFrame]:
+        X = R.montar_features(alvo, self.cat[alvo], c["cand"], montagem, c["s_denso"],
+                              c["s_bm25"], c["r_denso"], c["r_bm25"], c["rrf"])
+        if self.ranker is not None:
+            return self.ranker.predict(X[self.ranker.features_]), X
+        return c["rrf"][c["cand"]], X  # sem ranker treinado: ordem do RRF
+
+    def recomendar(self, alvo: str, montagem: dict, n: int = 10) -> pd.DataFrame:
+        c = self.candidatos(alvo, montagem)
+        if len(c["cand"]) == 0:
+            return self.cat[alvo].iloc[[]]
+        s, _ = self.pontuar(alvo, montagem, c)
+        ordem = R.mmr_marcas(s, self.cat[alvo]["marca"].to_numpy()[c["cand"]], n, self.mmr)
+        out = self.cat[alvo].iloc[c["cand"][ordem]].copy()
+        out["similaridade"] = c["s_denso"][c["cand"][ordem]]
+        out["score"] = s[ordem]
         return out
 
+    # ---------------- utilidades ----------------
     def buscar_texto(self, consulta: str, categoria: str = "cpu", n: int = 5) -> pd.DataFrame:
         """Busca livre (aceita português): ex. 'processador AMD barato para jogos'."""
         sims, ids = self.indices[categoria].search(E.embed([consulta], modelo_nome=self.modelo_nome), n)

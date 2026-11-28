@@ -1,0 +1,9 @@
+metodo,AM5,LGA1700,LGA1851
+BM25,0.627,0.615,0.591
+"Híbrido (BM25 + neural v2, RRF)",0.908,0.942,0.905
+Neural ajustado v1,0.568,0.574,0.461
+Neural ajustado v2,0.963,0.975,0.945
+Neural pré-treinado,0.832,0.561,0.614
+Neural pré-treinado (texto bruto),0.612,0.384,0.402
+Palavra-chave,0.917,0.947,0.866
+Popularidade,0.838,0.609,0.6

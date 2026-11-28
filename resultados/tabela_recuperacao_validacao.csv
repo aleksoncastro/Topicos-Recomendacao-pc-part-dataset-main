@@ -1,0 +1,9 @@
+metodo,Compat@10,Recall@100,nDCG@10
+Neural pré-treinado (texto bruto),0.486,0.091,0.306
+Neural pré-treinado,0.47,0.108,0.312
+Popularidade,0.504,0.08,0.324
+BM25,0.675,0.299,0.501
+Neural ajustado v1,0.737,0.225,0.632
+Palavra-chave,0.826,0.236,0.643
+"Híbrido (BM25 + neural v2, RRF)",0.886,0.339,0.816
+Neural ajustado v2,0.906,0.353,0.84

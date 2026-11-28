@@ -2,14 +2,14 @@
 
 from pathlib import Path
 import pandas as pd
-from src.main import resolver_diretorio_input
-from src.load import carregar_todas_categorias
-from src.common import remover_duplicatas
+from src.limpeza.main import resolver_diretorio_input
+from src.limpeza.load import carregar_todas_categorias
+from src.limpeza.common import remover_duplicatas
 
 
 def test_totais_globais_linhas_lidas_e_duplicatas():
     """Valida se o total lido é exatamente 66.778 e duplicatas removidas são 2.951."""
-    dir_input = resolver_diretorio_input("data/raw/data/json")
+    dir_input = resolver_diretorio_input("data/raw")
     dfs = carregar_todas_categorias(dir_input)
 
     total_lidas = 0
@@ -28,8 +28,6 @@ def test_totais_globais_linhas_lidas_e_duplicatas():
 def test_resumo_limpeza_csv_gerado_e_consistente():
     """Valida se o arquivo resumo_limpeza.csv existe e se a soma das colunas bate com os totais."""
     caminho_resumo = Path("data/processed/resumo_limpeza.csv")
-    if not caminho_resumo.exists():
-        caminho_resumo = Path("pc_parts_cleaning/data/processed/resumo_limpeza.csv")
 
     assert caminho_resumo.exists(), "resumo_limpeza.csv não foi encontrado!"
 
